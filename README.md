@@ -1,11 +1,17 @@
-# mudcookies
-We help synthesize single-cell data for free.
-To do that some need to learn some skills using the realistic data.
+# What is mudcookies
+We help synthesize single-cell data for free for poor researchers.
+I had some plan but forgot what they were.
+I am looking for some volunteers.
 
 ## single-cell RNA tools
-The analytic workflow include 
-- cell counting
-- normalization 
-- integration and reduction 
-- interpretation and annotation
+From my short experience the single-cell RNA tools perform the following steps:  
+- cell counting (cellranger)
+- normalization (lognormal, SCTransform, .. [2])
+- integration and reduction ( [bench mark] [1] ) 
+- interpretation and annotation 
 
+Many smart people provide great tools for us,
+but it is hard to understand them all. 
+
+[1] https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9
+[2] https://github.com/satijalab/seurat
