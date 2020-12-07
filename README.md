@@ -3,8 +3,7 @@ We help synthesize single-cell data for free for poor researchers.
 I had some plan but forgot what they were.
 I am looking for some volunteers.
 
-[Link]
-[1]
+[Link][1]
 
 [1]: http://b.org
 
