@@ -17,7 +17,13 @@ We follow Bayesian concept : Posterior ~ Prior x Model
 1. iteratively improve the performance
 
 # Value
+Imagine you cannot tell synthetic sc-RNA data from real one.
+Then, we can focus on unknown findings minimizing chores and 
+maximizing productivity.
+
+# Reward plan
 No inspiring quotes but we appreciate for your contributions.
+All the contributions are carved in a log history. 
 
 # Usueful Links
 [Seurat](https://github.com/satijalab/seurat)
