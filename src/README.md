@@ -18,3 +18,10 @@ python - <<'EOF'
 print("hello")
 EOF
 ```
+### hello-perl.sh
+```
+#!/bin/bash
+perl -e '
+  print("hello\n")
+'
+```
