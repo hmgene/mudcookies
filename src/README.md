@@ -11,6 +11,7 @@ print("hello")
 EOF
 ```
 ### hello-python.sh
+```
 #!/bin/bash
 python - <<'EOF'
 #careful indentation
