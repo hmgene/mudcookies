@@ -4,6 +4,8 @@ input ="in-harmony"
 output="out-harmony"
 
 input=read.table(input,header=T)
+# this will contain id, and cellranger_dir columns 
+# you can also include other inventory columns to be used in harmony group.by.var 
 
 d.list=list();
 j=1; for( i in 1:nrow(input)){
