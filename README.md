@@ -18,12 +18,8 @@ We follow Bayesian concept :
 - validate the performance
 We will test whether people can tell which one is real.
 
-## Encouraging statement for volunteers
-There is no benefit for participant in terms of money, publication. 
-Only your contribution remains as a log.
-
 # Value
-Make people happier with artificial data and encourage them to do real research
+No inspiring quotes but we appreciate for your warm heart.
 
 
 # Usueful Links
