@@ -1,4 +1,11 @@
 # mudcookies
-We help each other to synthesize free single-cell data.
-For this goal, we study existing tools and lower a barrier for our people
-before they can contribute to this with their great idea.
+We help synthesize single-cell data for free.
+To do that some need to learn some skills using the realistic data.
+
+## single-cell RNA tools
+The analytic workflow include 
+- cell counting
+- normalization 
+- integration and reduction 
+- interpretation and annotation
+
