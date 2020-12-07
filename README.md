@@ -5,8 +5,8 @@ I am looking for some volunteers.
 
 ## single-cell RNA tools
 From my short experience the single-cell RNA tools perform the following steps:  
-- cell counting (cellranger) [2][2]
-- normalization: lognormal, SCTransform [1][1], ..  
+- cell counting (cellranger) [Seurat][2]
+- normalization: lognormal, SCTransform [Batch-correction][1], ..  
 
 - integration and reduction   
 - interpretation and annotation 
