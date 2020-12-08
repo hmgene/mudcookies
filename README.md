@@ -1,11 +1,9 @@
+## Vision
+To provide syhhetic single-cell data for free for poor researchers
 
 ## Our Missions 
-- To learn and digest single-cell algorithms
-- To validate the algorithms using synthetic data
-- To develop a simulator producing realistic data
-
-## Vision
-To help synthesize single-cell data for free for poor researchers.
+- To organize energy-efficient single-cell pipelines 
+- To develop a virtual seuqncer producing realistic data
 
 ## Strategies
 Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
@@ -23,7 +21,7 @@ We can think of a Bayesian way : Posterior ~ Prior x Model
 1. iteratively improve the performance
 
 ## Value
-The final virtual sequencing machine will cost less with equivalenet power as real single-cell sequencers. 
+As much value as mudcookies for some people 
 
 ## Usueful Links
 1. Seurat: https://github.com/satijalab/seurat
