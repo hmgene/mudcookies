@@ -1,7 +1,7 @@
 
 
-input ="in-harmony"
-output="out-harmony"
+input ="%INPUT%"
+output="%OUTPUT%"
 
 input=read.table(input,header=T)
 # this will contain id, and cellranger_dir columns 
