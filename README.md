@@ -24,5 +24,6 @@ We can think of a Bayesian way : Posterior ~ Prior x Model
 As much value as mudcookies for some people 
 
 ## Usueful Links
+1. We collect pipelines in (./src) directory
 1. Seurat: https://github.com/satijalab/seurat
 2. Batch-correction bantchmarking : https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9) PMID 31948481
