@@ -1,29 +1,29 @@
+
+## Our Missions 
+- To learn and digest single-cell algorithms
+- To validate the algorithms using synthetic data
+- To develop a simulator producing realistic data
+
 ## Vision
 To help synthesize single-cell data for free for poor researchers.
-I had some nice catch-phrases but forgot what they were.
 
-## Missions 
-### Learn and digest algorithms 
-Single-cell RNA tools, best to my short knowledge, perform the following steps:  
-- cell counting (cellranger) 
-- normalization, reduction, (Seurat::SCTransform)  
-- integration, batch correction and reduction (Seurat::Integration, Harmony)   
-- interpretation and annotation (GSEA, etc)
+## Strategies
+Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
+1. cell counting (cellranger) 
+1. normalization, reduction, (Seurat::SCTransform)  
+1. integration, batch correction and reduction (Seurat::Integration, Harmony)   
+1. interpretation and annotation (GSEA, GO, DESeq2, etc.)
+Using this we develop scalable, reusable pipelines.</br> 
 
-### Make the synthetic data indistinguishable  
-I propose a Bayesian way : Posterior ~ Prior x Model
+The parameters and models are obtained from the above runs.
+And then, we will make some synthetic data indistinguishable from the real one.
+We can think of a Bayesian way : Posterior ~ Prior x Model
 1. define and train a model using a real data with a flat (naive) prior 
 1. simulate data using posterior predictive distribution
 1. iteratively improve the performance
 
 ## Value
-Imagine you cannot tell synthetic sc-RNA data from real one.
-Then, we can focus on unknown findings minimizing chores and 
-maximizing productivity.
-
-## Reward plan
-No inspiring quotes but we appreciate for your contributions.
-All the contributions are carved in a log history. 
+The final virtual sequencing machine will cost less with equivalenet power as real single-cell sequencers. 
 
 ## Usueful Links
 [Seurat](https://github.com/satijalab/seurat)
