@@ -26,5 +26,5 @@ We can think of a Bayesian way : Posterior ~ Prior x Model
 The final virtual sequencing machine will cost less with equivalenet power as real single-cell sequencers. 
 
 ## Usueful Links
-[Seurat](https://github.com/satijalab/seurat)
-[PMID: 31948481](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
+[1]: (https://github.com/satijalab/seurat)
+[2]: (https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9) PMID 31948481
