@@ -1,12 +1,19 @@
-## Overview
-### sc-RNA track
+# Developing Pipelines
+## sc-RNA track
 ```
-#input.txt : ( id, cellranger_dir )
+# input.txt : inventory file( id, cellranger_dir )
+# save Seurat object after integration (normalization, reduction, batch-correction)
 cat input.txt | harmony.sh - > harmony.rds
-cat harmony.rds | clustering.sh - some.parameters.txt > clusters.txt 
-gsea.sh clustering.txt > gsea.txt
+# unsupervised cell-identification
+cat harmony.rds | clustering.sh - some.parameters.txt > clusters.txt
+# supervised cell-identification
+cat harmony.rds | classification.sh - cellmarkers.txt > classes.txt
+# some functional analysis
+cat harmony.rds | gsea.sh "control" "treatment" > gsea.txt
+
 ```
 
+# How to write codes
 ## Some rules
 - each script should be independent 
 - provide test examples in ../test directory if possible
