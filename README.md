@@ -3,7 +3,7 @@
 
 ## Our Missions 
 - To organize energy-efficient single-cell pipelines 
-- To develop a virtual seuqncer producing realistic data
+- To develop a virtual seuqencer producing realistic data
 
 ## Strategies
 Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
