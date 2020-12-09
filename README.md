@@ -1,6 +1,5 @@
 ## Vision
-To provide syhhetic single-cell data for free for poor researchers
-To provide reusable code snippets for poor programmers
+- To provide syhhetic single-cell data and code snippets for free for poor researchers
 
 ## Our Missions 
 - To organize energy-efficient single-cell pipelines 
