@@ -1,4 +1,8 @@
 myboxplot = function(df,features,group){
+	require("tibble")
+	require("dplyr")
+	require("reshape2")
+	
 	fea=match(features,row.names(d))
 	features=features[!is.na(fea)]
 	df$RNA@data[features,] %>%
