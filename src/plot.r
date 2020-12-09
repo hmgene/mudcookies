@@ -1,5 +1,5 @@
-myboxplot = function(df,feature,group){
-	df$RNA@data[feature,] %>%
+myboxplot = function(df,features,group){
+	df$RNA@data[features,] %>%
         data.frame(check.names=F) %>% rownames_to_column( "feature") %>%
         filter(feature %in% features) %>%
         melt(id.var="feature") %>%
