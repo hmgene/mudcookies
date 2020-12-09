@@ -1,4 +1,6 @@
 myboxplot = function(df,features,group){
+	fea=match(features,row.names(d))
+	features=features[!is.na(fea)]
 	df$RNA@data[features,] %>%
         data.frame(check.names=F) %>% rownames_to_column( "feature") %>%
         filter(feature %in% features) %>%
