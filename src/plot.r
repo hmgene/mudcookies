@@ -17,6 +17,20 @@ myboxplot = function(df,features,group){
 }
 
 #
+# orig.ident x clusters : cell counts 
+#
+countcell=function(seurat.obj){
+	require(reshape2)
+	require(tibble)
+
+	seurat.obj@meta.data %>%
+	group_by(orig.ident,seurat_clusters) %>% count %>% 
+	dcast(orig.ident ~ seurat_clusters,fill=0) %>%
+	column_to_rownames("orig.ident")
+}
+
+
+#
 # Heatmap of markers
 #  markers: (feautre, type) columns
 
