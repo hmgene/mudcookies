@@ -1,3 +1,4 @@
+
 myboxplot = function(df,features,group){
 	require("tibble")
 	require("dplyr")
@@ -29,20 +30,24 @@ countcell=function(seurat.obj){
 	column_to_rownames("orig.ident")
 }
 
-
 #
-# Heatmap of markers
-#  markers: (feautre, type) columns
-
-myheatmap=function(seuratobj, markers){
-	require(ComplexHeatmap)
+# avgexp
+#
+avgexp = function(seuratobj){
 	require(Matrix.utils)
 	require(tibble)
 	require(dplyr)
 	avg = t(seuratobj$RNA@data) %>%    
 		aggregate.Matrix( groupings=seuratobj@meta.data$seurat_clusters, fun = "mean") %>%              
 		t() %>% data.frame(check.names=F) %>% rownames_to_column(var="feature")
-	avg1=merge(avg,markers,by="feature")
+}
+#
+# Heatmap of markers
+#  markers: (feautre, type) columns
+
+myheatmap=function(avgexp, markers){
+	require(ComplexHeatmap)
+	avg1=merge(avgexp,markers,by="feature")
 	avg.m=avg1[,2:(ncol(avg))]
 	row.names(avg.m) = make.names(avg1$feature,unique=TRUE)
 	ha=rowAnnotation( type=avg1$type )
