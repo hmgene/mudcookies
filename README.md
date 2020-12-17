@@ -23,6 +23,7 @@ We will develop independent programs handling a simple task.</br>
 Using your data, test and validate assembled programs, and share your idea.
 
 ## Usueful Links
-1. We collect pipelines in [src directory](./src) directory
+1. We collect pipelines in [src directory](./src) directory related project in https://github.com/hmgene/mudcookies/projects/1
+1. How to share programs https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-project-boards
 1. Seurat: https://github.com/satijalab/seurat
-2. Batch-correction bantchmarking : https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9) PMID 31948481
+1. Batch-correction bantchmarking : https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9) PMID 31948481
