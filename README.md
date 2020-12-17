@@ -9,10 +9,10 @@
 
 ## Abstract Strategies
 1. separate static and dynamic workflow (pipelines, data organization)
-1. code considering flexibility and reusability first
-1. get help for code scalibility and portability 
+1. let codes resusable by others in a different situation
+1. we will update after completing the above
 
-## Strategy example
+## Some details
 Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
 1. cell counting (cellranger) 
 1. normalization, reduction, (Seurat::SCTransform)  
