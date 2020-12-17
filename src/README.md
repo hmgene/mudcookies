@@ -1,5 +1,5 @@
 # Developing Pipelines
-## sc-RNA track
+## a pseudo sc-RNA track
 ```
 # input.txt : inventory file( id, cellranger_dir )
 # save Seurat object after integration (normalization, reduction, batch-correction)
