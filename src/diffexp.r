@@ -1,4 +1,10 @@
+# I am looking for one who can recompile existing functions in R or C++ to
+# implement our idea on that.
+# This example how we can inject our codes in differential testing
 # obtained from https://github.com/satijalab/seurat/blob/master/R/differential_expression.R
+
+
+
 ExpMean <- function(x, ...) {
   if (inherits(x = x, what = 'AnyMatrix')) {
     return(apply(X = x, FUN = function(i) {log(x = mean(x = exp(x = i) - 1) + 1)}, MARGIN = 1))
