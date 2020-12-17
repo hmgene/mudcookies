@@ -1,27 +1,26 @@
 ## Vision
-- To provide syhhetic single-cell data and code snippets for free for poor researchers
+- To make all bioinformaticians and collaborators happy in single-cell study 
 
 ## Our Missions 
-- To organize energy-efficient single-cell pipelines 
-- To develop a virtual seuqencer producing realistic data
+- To setup single-cell data workflow 
+- To highlight individual's strength
+- To stregthen team bond 
+- To improve collaboration
 
-## Strategies
+## Abstract Strategies
+1. separate static and dynamic workflow (pipelines, data organization)
+1. code considering flexibility and reusability first
+1. get help for code scalibility and portability 
+
+## Strategy example
 Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
 1. cell counting (cellranger) 
 1. normalization, reduction, (Seurat::SCTransform)  
 1. integration, batch correction and reduction (Seurat::Integration, Harmony)   
 1. interpretation and annotation (GSEA, GO, DESeq2, etc.)
-Using this we develop scalable, reusable pipelines.</br> 
 
-The parameters and models are obtained from the above runs.
-And then, we will make some synthetic data indistinguishable from the real one.
-We can think of a Bayesian way : Posterior ~ Prior x Model
-1. define and train a model using a real data with a flat (naive) prior 
-1. simulate data using posterior predictive distribution
-1. iteratively improve the performance
-
-## Value
-As much value as mudcookies for some people 
+We will develop independent programs handling a simple task.</br>
+Using your data, test and validate assembled programs, and share your idea.
 
 ## Usueful Links
 1. We collect pipelines in [src directory](./src) directory
