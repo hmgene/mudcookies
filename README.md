@@ -6,6 +6,7 @@
 - To highlight individual's strength
 - To stregthen team bond 
 - To improve collaboration
+- To get real, less work more product!
 
 ## Abstract Strategies
 1. separate static and dynamic workflow (pipelines, data organization)
