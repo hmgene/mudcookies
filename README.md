@@ -24,6 +24,7 @@ We will develop independent programs handling a simple task.</br>
 Using your data, test and validate assembled programs, and share your idea.
 
 ## Usueful Links
+1. C++ has another reason https://www-users.cs.york.ac.uk/susan/joke/cpp.htm?fbclid=IwAR1YrNHPKD1be5KBn95wEkpKqlktu7ELGh84W0dBU1gRhw5qQnvnSc4c5kw
 1. We collect pipelines in [src directory](./src) directory related project in https://github.com/hmgene/mudcookies/projects/1
 1. How to share programs https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-project-boards
 1. Seurat: https://github.com/satijalab/seurat
