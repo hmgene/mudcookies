@@ -12,7 +12,7 @@
 
 ## Abstract Strategies
 1. each project will be open to everybody
-2. use issue and pull for the communication 
+2. use issue and pull for question and participation  
 
 ## Projects
 1. how to join using github project https://github.com/features/project-management/
