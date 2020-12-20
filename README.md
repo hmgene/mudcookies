@@ -13,6 +13,9 @@
 1. let codes resusable by others in a different situation
 1. we will update after completing the above
 
+## Projects
+1. easy pipeline focusing on cell identification https://github.com/hmgene/mudcookies/projects/1
+
 ## Some details
 Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
 1. cell counting (cellranger) 
