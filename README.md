@@ -11,7 +11,7 @@
 - To get real, less work more product!
 
 ## Abstract Strategies
-1. each project will be open to everybody
+1. each project with any good idea will be open to everybody
 2. use issue and pull for question and participation  
 
 ## Projects
