@@ -9,9 +9,8 @@
 - To get real, less work more product!
 
 ## Abstract Strategies
-1. separate static and dynamic workflow (pipelines, data organization)
-1. let codes resusable by others in a different situation
-1. we will update after completing the above
+1. each project will be open to everybody
+2. use issue and pull for the communication 
 
 ## Projects
 1. how to join using github project https://github.com/features/project-management/
