@@ -4,8 +4,8 @@
 - To make all bioinformaticians and collaborators happy in single-cell study 
 
 ## Our Missions 
-- To setup single-cell data workflow 
-- To make synthetic single-cell data for free for all!!
+- To make pipelines for single-cell data analysis
+- To make synthetic data 
 
 <figure>
 <img src="https://github.com/hmgene/mudcookies/blob/main/test/Screen%20Shot%202020-12-19%20at%208.34.18%20PM.png" width="100" height="120">
@@ -13,8 +13,8 @@
 </figure>
 
 ## Strategies
-1. each project with any good idea will be open to everybody
-2. use issue and pull for question and participation  
+1. make a project for each goal 
+2. use issue and pull for making project tasks
 
 ## Projects
 1. how to join using github project https://github.com/features/project-management/
