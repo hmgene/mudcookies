@@ -9,7 +9,7 @@
 
 <figure>
 <img src="https://github.com/hmgene/mudcookies/blob/main/test/Screen%20Shot%202020-12-19%20at%208.34.18%20PM.png" width="100" height="120">
-  <figcaption>2D tree makes us happy!!!</figcaption>
+  <figcaption>2D tree also makes synthetic happiness !!!</figcaption>
 </figure>
 
 ## Strategies
