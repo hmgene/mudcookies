@@ -14,6 +14,7 @@
 1. we will update after completing the above
 
 ## Projects
+1. how to join using github project https://github.com/features/project-management/
 1. easy pipeline focusing on cell identification https://github.com/hmgene/mudcookies/projects/1
 
 ## Some details
