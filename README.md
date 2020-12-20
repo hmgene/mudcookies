@@ -5,7 +5,7 @@
 
 ## Our Missions 
 - To setup single-cell data workflow 
-- To make synthetic single-cell data 
+- To make synthetic single-cell data for free for all!!
 
 <figure>
 <img src="https://github.com/hmgene/mudcookies/blob/main/test/Screen%20Shot%202020-12-19%20at%208.34.18%20PM.png" width="100" height="120">
