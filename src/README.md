@@ -1,15 +1,14 @@
 # Developing Pipelines
 ## a pseudo sc-RNA track
 ```
-# input.txt : inventory file( id, cellranger_dir )
-# save Seurat object after integration (normalization, reduction, batch-correction)
-cat input.txt | harmony.sh - > harmony.rds
-# unsupervised cell-identification
-cat harmony.rds | clustering.sh - some.parameters.txt > clusters.txt
-# supervised cell-identification
-cat harmony.rds | classification.sh - cellmarkers.txt > classes.txt
-# some functional analysis
-cat harmony.rds | gsea.sh "control" "treatment" > gsea.txt
+## completed
+merge-cellranger.sh input.txt merged.rds
+integrate-with-harmony.sh merged.rds merged-harmony.rds
+
+## working pipeline
+identify-celltype.sh merged.harmony.rds icell
+icell/celltypes.txt  # chosen cell types
+     /meta.txt       # celltype calls
 
 ```
 
