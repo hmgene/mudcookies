@@ -5,10 +5,8 @@
 
 ## Our Missions 
 - To setup single-cell data workflow 
-- To highlight individual's strength
-- To stregthen team bond 
-- To improve collaboration
-- To get real, less work more product!
+- To make synthetic single-cell data 
+
 
 ## Strategies
 1. each project with any good idea will be open to everybody
