@@ -18,7 +18,7 @@ require(Seurat)
 d=readRDS(input)
 d=FindClusters(d,graph.name="RNA_snn", resolution=input.res)
 saveRDS(d,paste0(output,".rds"))
-
+#<!--parallelization required -->
 d.m = FindAllMarkers(d, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
 write.csv(d.m,paste0(output,"_diffexp_","res",input.res,".csv"))
 
