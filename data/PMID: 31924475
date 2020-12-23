@@ -1,0 +1,11 @@
+## working on
+celltype  features
+Myeloid-cell  LYZ,FCGR3A
+TIL CTLA4,IDO1,IFNG,IL1B
+B-cell  MS4A1,CD19,CD20
+T-cell  CD3D,HLA-DRB5,CXCL8,CXCL10
+TIL-Myeloid_cells FCER1A,MARCO
+CD4+Treg  FOXP3,CD25,CD127-
+NK  CD56
+Macrophage  CD14
+DC  CD11c
