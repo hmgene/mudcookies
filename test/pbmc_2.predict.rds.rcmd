@@ -1,0 +1,35 @@
+# for details read https://powellgenomicslab.github.io/scPred/articles/introduction.html 
+library("scPred")
+library("Seurat")
+library("magrittr")
+
+input1= "pbmc_2.rda"
+input2= "pbmc_1.scpred.rds"
+output= "pbmc_2.predict.rds"
+
+query = readRDS(input1)
+query = NormalizeData(query) ## this must be same as the reference
+scpred = readRDS(input2)
+
+query = scPredict(query, scpred)
+saveRDS(query, output)
+
+
+## some useful queries
+## this is a merged space which may be different from that of query space alone
+# query <- RunUMAP(query, reduction = "scpred", dims = 1:30) 
+## scpred_prediction is after harmony while scpred is before harmony
+# DimPlot(query, group.by = "scpred_prediction", label = TRUE, repel = TRUE)
+# crossTab(query, "cell_type", "scpred_prediction")
+## avoid aligning 
+# query <- scPredict(query, reference, recompute_alignment = FALSE)
+## different prob. threshold 
+# query <- scPredict(query, reference, recompute_alignment = FALSE, threshold = 0.9)
+## parallel training
+# library(doParallel)
+# cl <- makePSOCKcluster(2)
+# registerDoParallel(cl)
+# reference <- trainModel(reference, model = "mda", allowParallel = TRUE)
+## rerunning w/o Seurat obj 
+# scpred <- get_scpred(reference)
+# query <- scPredict(query, scpred)

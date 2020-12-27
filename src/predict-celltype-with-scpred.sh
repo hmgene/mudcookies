@@ -2,15 +2,15 @@
 usage="
 $BASH_SOURCE <seurat.obj> <scpred.obj> <output>
 <seurat.obj>: cell_type annotation must be in meta.data
-<scpred.obj>: default( out )
+<scpred.obj>: trained scpred model 
 <output>: output_prefix ( overwrite if it is the same as <seurat.obj>
 "; if [ $# -lt 1 ];then echo "$usage";exit; fi
 
 ip1=${1:-"test"}
 ip2=${2:-"test"}
-op=${3:-"out"}
+op=${3:-"out_scpred.predict.rds"}
 
-cat<<'EOF' | sed "s#INPUT1#$ip1#" | sed "s#INPUT2#$ip2#" | sed "s#OUTPUT#$op#" 
+cat<<'EOF' | sed "s#INPUT1#$ip1#" | sed "s#INPUT2#$ip2#" | sed "s#OUTPUT#$op#"  > $op.rcmd
 # for details read https://powellgenomicslab.github.io/scPred/articles/introduction.html 
 library("scPred")
 library("Seurat")
@@ -25,7 +25,7 @@ query = NormalizeData(query) ## this must be same as the reference
 scpred = readRDS(input2)
 
 query = scPredict(query, scpred)
-saveRDS(paste0(output,".rds"))
+saveRDS(query, output)
 
 
 ## some useful queries
@@ -47,3 +47,5 @@ saveRDS(paste0(output,".rds"))
 # scpred <- get_scpred(reference)
 # query <- scPredict(query, scpred)
 EOF
+
+R --no-save -f $op.rcmd

@@ -1,12 +1,12 @@
 #!/bin/bash
 usage="
 $BASH_SOURCE <seurat.obj> <scpred.obj>
-<seurat.obj>: cell_type annotation must be in meta.data
-<scpred.obj>: defaunt( out )
+<seurat.obj> : cell_type annotation must be in meta.data
+<scpred.obj> : scpred object 
 "; if [ $# -lt 1 ];then echo "$usage";exit; fi
 
 ip=$1
-op=${2:-"out"}
+op=${2:-"out_scpred.rds"}
 
 cat << 'EOF' | sed "s#INPUT#$ip#" | sed "s#OUTPUT#$op#" >$op.rcmd
 # for details read https://powellgenomicslab.github.io/scPred/articles/introduction.html 
