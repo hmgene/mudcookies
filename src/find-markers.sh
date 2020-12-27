@@ -25,12 +25,12 @@ require(Seurat)
 d=readRDS(input)
 #<!--parallelization required -->
 options(future.globals.maxSize=maxsize)
-if( input.nproc > 1){
+if( nproc > 1){
 	require(future)
 	plan("multicore",workers=nproc)
 }
 
 d.m = FindAllMarkers(d, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
-write.csv(d.m,paste0(output,"_diffexp_","res",input.res,".csv"))
+write.csv(d.m,paste0(output,"_diffexp.csv"))
 
 EOF
