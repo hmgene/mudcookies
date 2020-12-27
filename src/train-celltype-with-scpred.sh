@@ -36,7 +36,7 @@ d = trainModel(d)
 # retraining : d<- trainModel(d, model = "mda", reclassify = c("cMono", "ncMono"))
 
 scpred=get_scpred(d)
-saveRDS(scpred,paste0(output,"_scpred.rds"))
+saveRDS(scpred, file=output)
 # new_embedding_aligned vs new_embedding : after and before harmony
 
 EOF

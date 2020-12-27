@@ -1,0 +1,15 @@
+
+input="out.rds"
+input.res=0.5
+nproc=2
+output="out"
+require(Seurat)
+d=readRDS(input)
+
+if( nproc > 1 ){
+	require("future");
+	plan("multiprocess",workers=nproc);
+}
+d=FindNeighbors(d, reduction="harmony",dims=1:50)
+d=FindClusters(d,graph.name="RNA_snn", resolution=input.res)
+saveRDS(d,paste0(output,".rds"))

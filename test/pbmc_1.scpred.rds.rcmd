@@ -1,0 +1,30 @@
+# for details read https://powellgenomicslab.github.io/scPred/articles/introduction.html 
+library("scPred")
+library("Seurat")
+library("magrittr")
+
+input = "pbmc_1.rda"
+output= "pbmc_1.scpred.rds"
+
+# test set
+if( !file.exists( input ) && input == "test" ){
+	d = scPred::pbmc_1
+}else{
+	d = readRDS(input);
+}
+
+# this is why we stick to the baseline norm 
+d = d %>%
+  NormalizeData() %>%
+  FindVariableFeatures() %>%
+  ScaleData() %>%
+  RunPCA()
+
+d = getFeatureSpace(d, "cell_type") # default svmRadial
+d = trainModel(d)
+# retraining : d<- trainModel(d, model = "mda", reclassify = c("cMono", "ncMono"))
+
+scpred=get_scpred(d)
+saveRDS(scpred,paste0(output,"_scpred.rds"))
+# new_embedding_aligned vs new_embedding : after and before harmony
+
