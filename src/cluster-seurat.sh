@@ -1,7 +1,7 @@
 #!/bin/bash
 usage="
-$BASH_SOURCE <seurat> <output_prefix> [[resolution (default=0.5)] [nproc]]
- <output_prefix>: use the same name as the <seurat> if you want to overwrite 
+$BASH_SOURCE <input_seurat.obj> <output_seurat.obj> [resolution ] [nproc]
+ [resolution] : default 0.5
 "
 if [ $# -lt 1 ];then echo "$usage"; exit; fi
 res=${3:-0.5}
@@ -21,9 +21,11 @@ if( nproc > 1 ){
 	require("future");
 	plan("multiprocess",workers=nproc);
 }
+
+
 d=FindNeighbors(d, reduction="harmony",dims=1:50)
 d=FindClusters(d,graph.name="RNA_snn", resolution=input.res)
-saveRDS(d,paste0(output,".rds"))
+saveRDS(d,output)
 EOF
-
-R --no-save -f $2.rcmd
+cat $2.rcmd
+#R --no-save -f $2.rcmd
