@@ -16,10 +16,10 @@
 1. use issue and pull for making project tasks
 1. keep monitoring hot issues:
 
-| tools   | description |
-| :-:  | :-: |
-| https://github.com/powellgenomicslab/scPred/ | celltype trainer |
-| https://github.com/icbi-lab/scirpy | TCR analyzer  |
+| issues | tools   | description |
+| :-: | :-:  | :-: |
+| celltype identification | https://github.com/powellgenomicslab/scPred/ | celltype trainer |
+| celltype identification | https://github.com/icbi-lab/scirpy | TCR analyzer  |
 
 ## Projects
 1. read what is github project https://github.com/features/project-management/
