@@ -1,4 +1,8 @@
 ![mudcookies](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg)
+## Progress 
+- [x] : scPred track 
+- [x] : harmony track
+- [ ] : immune track
 
 ## Our Vision
 - To make all bioinformaticians and collaborators happy in single-cell study 
@@ -20,6 +24,7 @@
 ## Projects
 1. read what is github project https://github.com/features/project-management/
 1. project 1: celltype identification https://github.com/hmgene/mudcookies/projects/1
+
 
 ## Useful Links
 1. immune cells in tomor vs viral https://www.sciencedirect.com/science/article/abs/pii/S1074761319304959
