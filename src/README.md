@@ -14,12 +14,13 @@ icell/celltypes.txt  # chosen cell types
 
 # How to write codes
 ## Some rules
-- each script should be independent 
+- each file must be independently runnable
 - provide test examples in ../test directory if possible
-- use the corresponding suffices for different languages such as R, perl, python
+- use proper suffices for different languages such as R, perl, python
 - the runnable BASH wrapper must be independently runnable on BASH
 - use issues for errors and installation  
 
+## how to wrap with bash
 ### hello-r.sh
 ``` 
 #!/bin/bash
