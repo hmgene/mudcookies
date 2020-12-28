@@ -1,16 +1,8 @@
-# Developing Pipelines
-## a pseudo sc-RNA track
-```
-## completed
-merge-cellranger.sh input.txt merged.rds
-integrate-with-harmony.sh merged.rds merged-harmony.rds
+## Progress 
+- [x] : scPred track 
+- [x] : harmony track
+- [ ] : immune track
 
-## working pipeline
-identify-celltype.sh merged.harmony.rds icell
-icell/celltypes.txt  # chosen cell types
-     /meta.txt       # celltype calls
-
-```
 
 # How to write codes
 ## Some rules
