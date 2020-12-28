@@ -15,7 +15,7 @@
 ## Strategies
 1. make a project for each goal 
 1. use issue and pull for making project tasks
-
+1. keep monitoring hot issues:
 | tools   | description |
 | :-:  | :-: |
 | https://github.com/icbi-lab/scirpy | TCR analyzer  |
