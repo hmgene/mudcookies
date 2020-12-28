@@ -1,0 +1,17 @@
+
+input="pbmc_1.harmony.rds"
+input.res=0.5
+nproc=1
+output="pbmc_1.harmony_cluster.rds"
+require(Seurat)
+d=readRDS(input)
+
+if( nproc > 1 ){
+	require("future");
+	plan("multiprocess",workers=nproc);
+}
+
+
+d=FindNeighbors(d, reduction="harmony",dims=1:50)
+d=FindClusters(d,graph.name="RNA_snn", resolution=input.res)
+saveRDS(d,output)

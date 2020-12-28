@@ -1,0 +1,18 @@
+
+# ref: https://satijalab.org/seurat/v3.0/future_vignette.html
+input="pbmc_1.harmony.rds"
+nproc=1
+maxsize=eval("16000*1024^2")
+output="pbmc_1.harmony.diff.csv"
+
+require(dplyr)
+require(Seurat)
+require(parallel)
+
+d=readRDS(input)
+mn = mclapply( names(table(d$seurat_clusters)), function(x) {
+	y=FindMarkers(d, ident.1=x, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+	data.frame(feature=row.names(y),cluster=x,y)
+})
+m=data.frame(Reduce(rbind,mn))
+write.csv(m, paste0(output,".csv"))
