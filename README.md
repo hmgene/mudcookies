@@ -30,7 +30,7 @@ Single-cell RNA tools, best to my short knowledge, perform the following steps (
 We will develop independent programs handling a simple task.</br>
 Using your data, test and validate assembled programs, and share your idea.
 
-## Usueful Links
+## Useful Links
 1. to learn how they did https://github.com/arc85
 1. https://www.sciencedirect.com/science/article/abs/pii/S1074761319304959
 1. C++ has another reason https://www-users.cs.york.ac.uk/susan/joke/cpp.htm?fbclid=IwAR1YrNHPKD1be5KBn95wEkpKqlktu7ELGh84W0dBU1gRhw5qQnvnSc4c5kw
