@@ -5,7 +5,7 @@
 - [ ] : immune track
 
 ## Our Vision
-- To make all bioinformaticians and collaborators happy in single-cell study 
+- To provide virtual single-cell data with one click
 
 ## Our Missions 
 - To make pipelines for single-cell data analysis
