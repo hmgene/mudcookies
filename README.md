@@ -15,6 +15,9 @@
 ## Strategies
 1. make a project for each goal 
 2. use issue and pull for making project tasks
+|tools   | description |
+| --  | - |
+| https://github.com/icbi-lab/scirpy |  |
 
 ## Projects
 1. how to join using github project https://github.com/features/project-management/
