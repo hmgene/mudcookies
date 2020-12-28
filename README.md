@@ -1,16 +1,11 @@
 ![mudcookies](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg)
 
-## Vision
+## Our Vision
 - To make all bioinformaticians and collaborators happy in single-cell study 
 
 ## Our Missions 
 - To make pipelines for single-cell data analysis
 - To make synthetic data 
-
-<figure>
-<img src="https://github.com/hmgene/mudcookies/blob/main/test/Screen%20Shot%202020-12-19%20at%208.34.18%20PM.png" width="100" height="120">
-  <figcaption>2D tree also makes synthetic happiness !!!</figcaption>
-</figure>
 
 ## Strategies
 1. make a project for each goal 
@@ -23,18 +18,8 @@
 | https://github.com/icbi-lab/scirpy | TCR analyzer  |
 
 ## Projects
-1. how to join using github project https://github.com/features/project-management/
-1. our first mission, celltype identification https://github.com/hmgene/mudcookies/projects/1
-
-## Some details
-Single-cell RNA tools, best to my short knowledge, perform the following steps (standard-like tool names:  
-1. cell counting (cellranger) 
-1. normalization, reduction, (Seurat::SCTransform)  
-1. integration, batch correction and reduction (Seurat::Integration, Harmony)   
-1. interpretation and annotation (GSEA, GO, DESeq2, etc.)
-
-We will develop independent programs handling a simple task.</br>
-Using your data, test and validate assembled programs, and share your idea.
+1. read what is github project https://github.com/features/project-management/
+1. project 1: celltype identification https://github.com/hmgene/mudcookies/projects/1
 
 ## Useful Links
 1. to learn how they did https://github.com/arc85
