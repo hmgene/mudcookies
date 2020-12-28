@@ -1,7 +1,3 @@
-## Progress 
-- [x] : scPred track 
-- [x] : harmony track
-- [ ] : immune track
 
 
 # How to write codes
