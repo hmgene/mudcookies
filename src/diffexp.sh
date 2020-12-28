@@ -1,6 +1,6 @@
 #!/bin/bash
 usage="
-$BASH_SOURCE <seurat> <output_prefix> [nproc] [maxsize (Gbyte)]
+$BASH_SOURCE <seurat.rds> <output.cvs> [nproc] [maxsize (Gbyte)]
  <output_prefix>: use the same name as the <seurat> if you want to overwrite 
  [nproc]: number of processes (default=1) 
 "
@@ -35,7 +35,7 @@ mn = mclapply( names(table(d$seurat_clusters)), function(x) {
 	data.frame(feature=row.names(y),cluster=x,y)
 })
 m=data.frame(Reduce(rbind,mn))
-write.csv(m, paste0(output,".csv"))
+write.csv(m,output)
 EOF
 
 R --no-save -f $op.rcmd
