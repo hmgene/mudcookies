@@ -1,10 +1,14 @@
-# for details read https://powellgenomicslab.github.io/scPred/articles/introduction.html 
+
+# ref: https://powellgenomicslab.github.io/scPred/articles/introduction.html 
 library("scPred")
 library("Seurat")
 library("magrittr")
+require("doParallel")
+require("mda")
 
 input = "pbmc_1.rda"
-output= "pbmc1.scpred.rds"
+output= "pbmc_1.scpred.rds"
+nproc=2
 
 # test set
 if( !file.exists( input ) && input == "test" ){
@@ -13,7 +17,7 @@ if( !file.exists( input ) && input == "test" ){
 	d = readRDS(input);
 }
 
-# this is why we stick to the baseline norm 
+# query data must use the same norm. 
 d = d %>%
   NormalizeData() %>%
   FindVariableFeatures() %>%
@@ -21,8 +25,12 @@ d = d %>%
   RunPCA()
 
 d = getFeatureSpace(d, "cell_type") # default svmRadial
-d = trainModel(d)
+
+cl = makePSOCKcluster(nproc)
+registerDoParallel(cl)
+d = trainModel(d, model= "mda", allowParallel=T)
 # retraining : d<- trainModel(d, model = "mda", reclassify = c("cMono", "ncMono"))
+stopCluster(cl)
 
 scpred=get_scpred(d)
 saveRDS(scpred, file=output)

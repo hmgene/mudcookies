@@ -5,7 +5,7 @@
 bash ../src/data_from_scpred.sh 
 ## train celltype from pbmc_1
 ## make sure pbmc_1 has a "cell_type" column 
-bash ../src/train-celltype-with-scpred.sh  pbmc_1.rda pbmc_1.scpred.rds
+bash ../src/train-celltype-with-scpred.sh  pbmc_1.rda pbmc_1.scpred.rds 2
 ## predict celltype for pbmc_2 using the trained model
 bash ../src/predict-celltype-with-scpred.sh pbmc_2.rda pbmc_1.scpred.rds pbmc_2.predict.rds
 
