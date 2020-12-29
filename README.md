@@ -4,7 +4,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
 </td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We believe there is a cost-and-energy efficient way without using the real data </td>
-  <td>단일 세포 데이터 및 필수 시스템은 비용이 많이 들지만 연구 출판 및 자금 조달에 필수적입니다. 실제 데이터를 사용하지 않고 비용과 에너지를 효율적으로 사용할 수있는 방법이 있다고 믿습니다.</td>
+  <td>단일 세포 데이터 및 필수 시스템은 비용이 많이 들지만 연구 출판 및 자금 조달에 필수적입니다. 실제 데이터 대신 비용과 에너지를 효율적으로 사용하여 같은 결과를 낼 수 있다고 믿습니다.</td>
   </tr></table>
 
 ## Our Missions 
