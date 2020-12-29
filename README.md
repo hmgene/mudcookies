@@ -2,8 +2,9 @@
 <table style="table-layout: fixed; width: 100%;" ><tr>
 <td style="width:100%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
-</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. We want a cost-and-energy efficient way where indiistinguishable synthetic data can produce realistic results. 
-</td></tr></table>
+</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. We want a cost-and-energy efficient way where indiistinguishable synthetic data can produce realistic results </td>
+  <td>단일 셀 데이터 및 필수 시스템은 비용이 많이 들지만 연구 출판 및 자금 조달에 필수적입니다. 우리는 구별 할 수없는 합성 데이터가 현실적인 결과를 생성 할 수있는 비용 및 에너지 효율적인 방법을 원합니다</td>
+  </tr></table>
 
 ## Our Missions 
 - To make energy-saving pipelines for single-cell data analysis
