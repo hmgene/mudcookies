@@ -23,14 +23,15 @@
 | celltype identification | https://github.com/powellgenomicslab/scPred/ | celltype trainer |
 | celltype identification | https://github.com/icbi-lab/scirpy | TCR analyzer  |
 
-## Projects 
+## Structure 
 
-| project_id | description | location |
+| directory | description | link |
 | :-: | :-:  | :-: |
-| celltype | celltype identification | [link](../projects/1) |
+| src | directory for codes | [src](src) |
+| data | directory for data | [data](data) |
+| projects | directory for projects | [projects](projects) |
 
-## Projects
-1. 
+## Active Projects
 1. project 1: celltype identification https://github.com/hmgene/mudcookies/projects/1
 
 
