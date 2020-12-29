@@ -18,10 +18,11 @@
 1. use issue and pull for making project tasks
 1. keep monitoring hot issues:
 
-| issues | tools   | description |
+| issues | description   | link |
 | :-: | :-:  | :-: |
-| celltype identification | https://github.com/powellgenomicslab/scPred/ | celltype trainer |
-| celltype identification | https://github.com/icbi-lab/scirpy | TCR analyzer  |
+| celltype identification | celltype trainer/predictor| [scPred](https://github.com/powellgenomicslab/scPred/) | 
+| celltype identification | TCR analyzer | [scirpy](https://github.com/icbi-lab/scirpy) |
+| T-cell clonal expantion | Peripheral T cell expansion predicts tumour infiltration and clinical response | [link](https://www.nature.com/articles/s41586-020-2056-8#author-information) | 
 
 ## Structure 
 
