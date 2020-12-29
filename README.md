@@ -1,7 +1,7 @@
 # We make Mudcookies for single-cell Bioinformaticians
 <table><tr>
 <td> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies" style="width:400px;height:400px;">
 </td><td>
   Our dirt and humble tools will help you to develop your own idea without expensive equipments or sequencing data 
 </td></tr></table>
