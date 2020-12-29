@@ -22,7 +22,7 @@
 | :-: | :-:  | :-: |
 | celltype identification | celltype trainer/predictor| [scPred](https://github.com/powellgenomicslab/scPred/) | 
 | celltype identification | TCR analyzer | [scirpy](https://github.com/icbi-lab/scirpy) |
-| T-cell clonal expantion | Peripheral T cell expansion predicts tumour infiltration and clinical response | [link](https://www.nature.com/articles/s41586-020-2056-8#author-information) | 
+| T-cell clonal expansion | Peripheral T cell expansion predicts tumour infiltration and clinical response | [link](https://www.nature.com/articles/s41586-020-2056-8#author-information) | 
 
 ## Structure 
 
