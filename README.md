@@ -6,9 +6,6 @@
   Our dirty and humble tools will help you develop your own ideas 
 </td></tr></table>
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies" width="128" height="128"> |  Our dirty and humble tools will help you develop your own ideas |  
-
-
 ## Progress 
 - [x] : scPred track 
 - [x] : harmony track
