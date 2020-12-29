@@ -2,7 +2,7 @@
 <table><tr>
 <td style="width:25%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
-</td><td> Single-cell data and required systems are expensive but essential for publishing and financing your research. 
+</td><td style="width:50%;"> Single-cell data and required systems are expensive but essential for publishing and financing your research. 
   We want to do that saving energy and money if we can obtain similar results from the synthetic data. 
 </td></tr></table>
 
