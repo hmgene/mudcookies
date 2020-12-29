@@ -35,7 +35,7 @@
 
 ## Active Projects
 1. project 1: celltype identification https://github.com/hmgene/mudcookies/projects/1
-
+2. project 2: literature mining https://github.com/hmgene/mudcookies/projects/3
 
 ## Useful Links
 1. read what is github project https://github.com/features/project-management/
