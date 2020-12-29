@@ -1,9 +1,9 @@
-# We make Mudcookies for single-cell Bioinformaticians
+# Single-Cell Mudcookies
 <table><tr>
 <td> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies" width="128" height="128">
-</td><td>
-  Our dirty and humble tools will help you develop your own ideas 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies" width="200" height="200">
+</td><td> Single-cell data and running tools are expensive but essential for publication and funding. 
+Can we do that with virtual data? 
 </td></tr></table>
 
 ## Progress 
