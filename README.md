@@ -1,13 +1,10 @@
-# Single-Cell Mudcookies
+## Our Vision 
 <table style="table-layout: fixed; width: 100%;" ><tr>
-<td style="width:25%;"> 
+<td style="width:100%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
 </td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We want to do that saving energy and money if we can obtain similar results from the synthetic data. 
 </td></tr></table>
-
-## Our Vision
-- To provide virtual single-cell data with one click
 
 ## Our Missions 
 - To make pipelines for single-cell data analysis
