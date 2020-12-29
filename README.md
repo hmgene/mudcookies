@@ -2,13 +2,12 @@
 <table style="table-layout: fixed; width: 100%;" ><tr>
 <td style="width:100%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
-</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  We want to do that saving energy and money if we can obtain similar results from the synthetic data. 
+</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. Many want a cost-and-energy efficient environment. 
 </td></tr></table>
 
 ## Our Missions 
-- To make pipelines for single-cell data analysis
-- To make synthetic data 
+- To make energy-saving pipelines for single-cell data analysis
+- To make free synthetic data 
 
 ## Strategies
 1. make a project for each goal 
