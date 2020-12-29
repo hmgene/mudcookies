@@ -24,8 +24,10 @@
 | celltype identification | https://github.com/icbi-lab/scirpy | TCR analyzer  |
 
 ## Projects 
+
 | project_id | description | location |
-| celltype | celltype identification | (../projects/1) |
+| :-: | :-:  | :-: |
+| celltype | celltype identification | [link](../projects/1) |
 
 ## Projects
 1. 
