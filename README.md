@@ -12,9 +12,9 @@
 - To make free synthetic data 
 
 ## Strategies
-1. make a project for each goal 
-1. use issue and pull for making project tasks
-1. keep monitoring hot issues:
+1. understand the real, public data  
+1. regenreate the data using some models
+1. consider the most significant issues :
 
 | issues | description   | link |
 | :-: | :-:  | :-: |
