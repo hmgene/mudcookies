@@ -2,7 +2,7 @@
 <table style="table-layout: fixed; width: 100%;" ><tr>
 <td style="width:100%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
-</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. Many want a cost-and-energy efficient environment. 
+</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. We want a cost-and-energy efficient way where indiistinguishable synthetic data can produce realistic results. 
 </td></tr></table>
 
 ## Our Missions 
