@@ -4,14 +4,12 @@
   Can we use synthetic data instead? Yes, if it is undistinguishiably realistic.
   
 ## Our Missions 
-
 - To make energy-saving pipelines for single-cell data analysis 
 - To make free synthetic data 
 
 ## Strategies
-1. understand the real, public data  
-1. regenreate the data using some models
-1. consider the most significant issues :
+1. understand existing data and methods   
+1. focus on hot issues
 
 | issues | description   | link |
 | :-: | :-:  | :-: |
