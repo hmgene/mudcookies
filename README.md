@@ -1,6 +1,6 @@
 ## Our Vision 
 <table style="table-layout: fixed; width: 100%;" ><tr>
-<td style="width:100%;"> 
+<td style="width:25%;"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
 </td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We believe that synthetic data can help researchers achieve the similar goals. </td>
