@@ -1,5 +1,6 @@
 ## Our Vision 
-  <<img align="left" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
+  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  
+  Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We believe that synthetic data can help researchers achieve the similar goals.
   
 ## Our Missions 
