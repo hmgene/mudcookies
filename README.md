@@ -1,12 +1,7 @@
 ## Our Vision 
-<table style="table-layout: fixed; width: 100%;" ><tr>
-<td style="width:25%;"> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">
-</td><td style="width:50%;"> Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  We believe that synthetic data can help researchers achieve the similar goals. </td>
-  <td>단일 세포 데이터 및 필수 시스템은 비용이 많이 들지만 연구 출판 및 자금 조달에 필수적입니다. 배고픈 연구자들이 에너지-비용 효율적인 가상 데이터를 가지고도 실제와 같은 결과를 낼 수 있다고 믿습니다.</td>
-  </tr></table>
-
+  <<img align="left" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
+  We believe that synthetic data can help researchers achieve the similar goals.
+  
 ## Our Missions 
 
 - To make energy-saving pipelines for single-cell data analysis 
