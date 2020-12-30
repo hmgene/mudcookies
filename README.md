@@ -8,6 +8,7 @@
   </tr></table>
 
 ## Our Missions 
+
 | :-: | :-: |
 | To make energy-saving pipelines for single-cell data analysis | 에너지 효율적인 분석 도구 구현 |
 | To make free synthetic data | 공짜 가상 데이터 만들기 |
