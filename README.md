@@ -1,15 +1,17 @@
 ## Our Vision 
   <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  We can make synthetic data undistinguishiable from real data 
-
+  We will show usefulness of the synthetic data to test no-money no-research is true. 
+ 
 ## Our Missions 
-- To make energy-saving, reusable pipelines for single-cell data analysis 
-- To make carbon-zero, synthetic data 
+- To create useful synthetic data
+- To build human relationship 
 
 ## Strategies
-1. understand existing data and methods   
-1. communicate with people focusing on hot issues
+- To build human-machine pairs (crowed-computation)
+- To build human-human pairs (menthor-mentee)
+- To focus on hot issues: mentors lead mentees implement
+- To share benefits (githup contributions)
 
 | issues | description   | link |
 | :-: | :-  | -: |
@@ -19,7 +21,10 @@
 | clustering | benchmark | [link](https://www.nature.com/articles/s41598-020-66848-3) |
 | celltype db | CellMarker db | [CellMarker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323899/) |
 
-1. grow with small achievements 
+## Active Projects
+- project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
+- project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
+
 
 ## Structure 
 
@@ -28,10 +33,6 @@
 | src | directory for codes | [src](src) |
 | data | directory for data | [data](data) |
 | projects | directory for projects | [projects](projects) |
-
-## Active Projects
-1. project 1: celltype identification https://github.com/hmgene/mudcookies/projects/1
-2. project 2: literature mining https://github.com/hmgene/mudcookies/projects/3
 
 ## Useful Links
 1. data model google plot like local panda : https://pypi.org/project/pandasgui/
