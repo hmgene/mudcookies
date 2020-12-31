@@ -4,17 +4,19 @@
   **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We start a small project to spread positivity and enthusiasm in single-cell research for all.  
+  홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 작은 프로젝트를 시작하면서 밝고 긍정적인 생각이 퍼지도록 하려 합니다.
+  가짜 데이터로 배고픔을 나누는 따뜻한 생명정보사가 되세요.
   
 ## Our Missions 
-- To make synthetic data useful  
-- To build a bioinformatics socieity of teamwork and good-will
+- To make synthetic data useful. 가짜 데이터를 유용하게  
+- To build a bioinformatics socieity of teamwork and good-will. 선한 마음이 생명정보사에게 전해지도록
 
 ## Strategies
-- Division of labor
-  - build human-machine pairs (crowd-computing)
-  - To build human-human pairs (menthor-mentee education)
-- To share benefits (githup contributions)
-- To focus on hot issues: mentors lead mentees implement
+- Division of labor 일을 나눕시다.
+  - build human-machine pairs (crowd-computing). 기계 주인은 사람이며 사람에게 부탁합시다.
+  - To build human-human pairs (menthor-mentee education). 연구자 간의 협력이 중요합니다. 
+- To share benefits (githup contributions). 좋은거는 나눠 먹고요.
+- To focus on hot issues: mentors lead mentees implement. 전문가 분들은 뻘짓을 막아주지요.
 
 | issues | description   | link |
 | :-: | :-  | -: |
