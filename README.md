@@ -36,6 +36,7 @@
 | projects | directory for projects | [projects](projects) |
 
 ## Useful Links
+1. word2vec : https://jef.works/blog/2018/02/06/fun-with-word2vec/
 1. data model google plot like local panda : https://pypi.org/project/pandasgui/
 1. read what is github project https://github.com/features/project-management/
 1. immune cells in tomor vs viral https://www.sciencedirect.com/science/article/abs/pii/S1074761319304959
