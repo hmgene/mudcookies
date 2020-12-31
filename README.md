@@ -1,17 +1,18 @@
 ## Our Vision 
-  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  
+  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies"> 
+  **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  We will show usefulness of the synthetic data to test whether no-money no-research was true. 
- 
+  We start a small project to spread positivity and enthusiasm in single-cell research.  
+  
 ## Our Missions 
-- To create useful synthetic data
-- To build human relationship 
+- To make synthetic data useful  
+- To build teamwork
 
 ## Strategies
 - To build human-machine pairs (crowed-computation)
 - To build human-human pairs (menthor-mentee)
-- To focus on hot issues: mentors lead mentees implement
 - To share benefits (githup contributions)
+- To focus on hot issues: mentors lead mentees implement
 
 | issues | description   | link |
 | :-: | :-  | -: |
@@ -24,7 +25,6 @@
 ## Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
 - project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
-
 
 ## Structure 
 
