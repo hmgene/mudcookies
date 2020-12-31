@@ -3,15 +3,15 @@
   
   **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  We start a small project to spread positivity and enthusiasm in single-cell research.  
+  We start a small project to spread positivity and enthusiasm in single-cell research for all.  
   
 ## Our Missions 
 - To make synthetic data useful  
-- To build teamwork
+- To build a bioinformatics socieity of teamwork and good-will
 
 ## Strategies
-- To build human-machine pairs (crowed-computation)
-- To build human-human pairs (menthor-mentee)
+- To build human-machine pairs (crowd-computing)
+- To build human-human pairs (menthor-mentee education)
 - To share benefits (githup contributions)
 - To focus on hot issues: mentors lead mentees implement
 
