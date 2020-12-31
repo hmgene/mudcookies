@@ -1,15 +1,15 @@
 ## Our Vision 
   <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies">  
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
-  Can we use synthetic data instead? Yes, if it is undistinguishiably realistic.
-  
+  We can make synthetic data undistinguishiable from real data 
+
 ## Our Missions 
-- To make energy-saving pipelines for single-cell data analysis 
-- To make carbon-zero synthetic data 
+- To make energy-saving, reusable pipelines for single-cell data analysis 
+- To make carbon-zero, synthetic data 
 
 ## Strategies
 1. understand existing data and methods   
-1. focus on hot issues
+1. communicate with people focusing on hot issues
 
 | issues | description   | link |
 | :-: | :-  | -: |
@@ -19,6 +19,7 @@
 | clustering | benchmark | [link](https://www.nature.com/articles/s41598-020-66848-3) |
 | celltype db | CellMarker db | [CellMarker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323899/) |
 
+1. grow with small achievements 
 
 ## Structure 
 
