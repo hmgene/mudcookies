@@ -1,5 +1,6 @@
 ## Our Vision 
   <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="Mudcookies"> 
+  
   **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We start a small project to spread positivity and enthusiasm in single-cell research.  
