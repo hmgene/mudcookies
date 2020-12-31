@@ -5,14 +5,14 @@
   
 ## Our Missions 
 - To make energy-saving pipelines for single-cell data analysis 
-- To make free synthetic data 
+- To make carbon-zero synthetic data 
 
 ## Strategies
 1. understand existing data and methods   
 1. focus on hot issues
 
 | issues | description   | link |
-| :-: | :-:  | :-: |
+| :-: | :-  | -: |
 | celltype identification | celltype trainer/predictor| [scPred](https://github.com/powellgenomicslab/scPred/) | 
 | celltype identification | TCR analyzer | [scirpy](https://github.com/icbi-lab/scirpy) |
 | T-cell clonal expansion | Peripheral T cell expansion predicts tumour infiltration and clinical response | [link](https://www.nature.com/articles/s41586-020-2056-8#author-information) | 
