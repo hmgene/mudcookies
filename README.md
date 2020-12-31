@@ -33,6 +33,7 @@
 2. project 2: literature mining https://github.com/hmgene/mudcookies/projects/3
 
 ## Useful Links
+1. data model google plot like local panda : https://pypi.org/project/pandasgui/
 1. read what is github project https://github.com/features/project-management/
 1. immune cells in tomor vs viral https://www.sciencedirect.com/science/article/abs/pii/S1074761319304959
 1. this is organized in https://github.com/arc85
