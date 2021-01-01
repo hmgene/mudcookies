@@ -1,14 +1,15 @@
 ## Our Vision 
-<figure align="right">
-  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg"> 
-<figcaption>source from https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg</figcaption>
-</figure> 
 
   **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We start a small project to spread positivity and enthusiasm in single-cell research for all.  
   홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 작은 프로젝트를 시작하면서 밝고 긍정적인 생각이 퍼지도록 하려 합니다.
   가짜 데이터로 배고픔을 나누는 따뜻한 생명정보사가 되세요.
+
+<figure align="right">
+  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg"> 
+<figcaption>source from https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg</figcaption>
+</figure> 
   
 ## Our Missions 
 - To make synthetic data useful. 가짜 데이터를 유용하게  
