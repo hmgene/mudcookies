@@ -7,7 +7,7 @@
   가짜 데이터로 배고픔을 나누는 따뜻한 생명정보사가 되세요.
 
 <figure align="right">
-  <img align="right" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg"> 
+  <img  width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haitian_Dirt_Biscuits.jpg/220px-Haitian_Dirt_Biscuits.jpg" alt="https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg"> 
 <figcaption>source from https://en.wikipedia.org/wiki/Mud_cookie#/media/File:Haitian_Dirt_Biscuits.jpg</figcaption>
 </figure> 
   
