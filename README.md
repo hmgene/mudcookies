@@ -25,6 +25,7 @@
 | T-cell clonal expansion | Peripheral T cell expansion predicts tumour infiltration and clinical response | [link](https://www.nature.com/articles/s41586-020-2056-8#author-information) | 
 | clustering | benchmark | [link](https://www.nature.com/articles/s41598-020-66848-3) |
 | celltype db | CellMarker db | [CellMarker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323899/) |
+| interactive clustering visualization | Tune Seurat Cluster resolution overlaying with known markers | [link](https://baderlab.github.io/scClustViz/#example-output) |
 
 ## Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
