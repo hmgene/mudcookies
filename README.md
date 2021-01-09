@@ -4,19 +4,18 @@
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
   We start a small project to spread positivity and enthusiasm in single-cell research for all.  
   홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 작은 프로젝트를 시작하면서 밝고 긍정적인 생각이 퍼지도록 하려 합니다.
-  가짜 데이터로 배고픔을 나누는 따뜻한 생명정보사가 되세요.
+  가짜 데이터로도 배고픔을 나누는 따뜻한 생명정보사.
   
 ## Our Missions 
-- To make synthetic data useful. 가짜 데이터를 유용하게  
-- To build a bioinformatics socieity of teamwork and good-will. 선한 마음이 생명정보사에게 전해지도록
+- To make synthetic data useful. 가짜 데이터를 유용하게.
+- To value researchers. 연구자의 가치를 높이기 위해.
 
 ## Strategies
-- Division of labor 일을 나눕시다.
-  - build human-machine pairs (crowd-computing). 기계 주인은 사람이며 사람에게 부탁합시다.
-  - To build human-human pairs (menthor-mentee education). 연구자 간의 협력이 중요합니다. 
-- To share benefits (githup contributions). 좋은거는 나눠 먹고요.
-- To focus on hot issues: mentors lead mentees implement. 전문가 분들은 뻘짓을 막아주지요.
+- Human-human pair computing. 사람은 사람과 함께 일합니다.  
+- Human-machine pair computing. 사람이 주인이 되어 기계에게 일을 시킵니다. 
+- Break and celebrate. 먼길 입니다. 자주 쉬고 차를 함께해요. 
 
+## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
 | celltype identification | [SCCAF](https://www.nature.com/articles/s41592-020-0825-9) | 
@@ -27,12 +26,11 @@
 | celltype db | CellMarker db | [CellMarker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323899/) |
 | interactive clustering visualization | Tune Seurat Cluster resolution overlaying with known markers | [link](https://baderlab.github.io/scClustViz/#example-output) |
 
-## Active Projects
+## Our projects
+### Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
 - project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
-
-## Structure 
-
+### Structure 
 | directory | description | link |
 | :-: | :-:  | :-: |
 | src | directory for codes | [src](src) |
