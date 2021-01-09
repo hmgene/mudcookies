@@ -12,7 +12,7 @@
 
 ## Strategies
 - Human-human pair computing. 사람은 사람과 함께 일합니다.  
-- Human-machine pair computing. 사람이 주인이 되어 기계에게 일을 시킵니다. 
+- Human-teaching but machine learning. 사람은 선생으로 기계가 스스로 깨우치게 합니다. 
 - Break and celebrate. 먼길 입니다. 자주 쉬고 차를 함께해요. 
 
 ## Interesting topics
