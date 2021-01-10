@@ -2,18 +2,15 @@
 
   **To prove usefulness of sythetic single-cell data**
   Single-cell data and the required systems are expensive, but essential for publishing and financing your research.
-  With accumulation of such data, at some point, we might be able to produce knowledge without sequencing single data.
-  
-  
-  We start a small project to spread positivity and enthusiasm in single-cell research for all.  
-  홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 작은 프로젝트를 시작하면서 밝고 긍정적인 생각이 퍼지도록 하려 합니다.
-  가짜 데이터로도 배고픔을 나누는 따뜻한 생명정보사.
+  We believe we are able to generate such data without performing expriments.
+  홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 우리는 그런 실험을 하지 않고 비슷한 데이터를 생성할수 있다고 믿습니다. 
   
 ## Our Missions 
 - To make synthetic data useful. 가짜 데이터를 유용하게.
 - To value researchers. 연구자의 가치를 높이기 위해.
 
 ## Strategies
+- Find significant and novel topics. 중요한 일부터 합시다.
 - Human-human pair computing. 사람은 사람과 함께 일합니다.  
 - Human-teaching but machine learning. 사람은 선생으로 기계가 스스로 깨우치게 합니다. 
 - Break and celebrate. 먼길 입니다. 자주 쉬고 차를 함께해요. 
