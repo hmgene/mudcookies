@@ -1,7 +1,10 @@
 ## Our Vision 
 
   **To prove usefulness of sythetic single-cell data**
-  Single-cell data and the required systems are expensive, but essential for publishing and financing your research. 
+  Single-cell data and the required systems are expensive, but essential for publishing and financing your research.
+  With accumulation of such data, at some point, we might be able to produce knowledge without sequencing single data.
+  
+  
   We start a small project to spread positivity and enthusiasm in single-cell research for all.  
   홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 작은 프로젝트를 시작하면서 밝고 긍정적인 생각이 퍼지도록 하려 합니다.
   가짜 데이터로도 배고픔을 나누는 따뜻한 생명정보사.
@@ -48,4 +51,5 @@
 1. We collect pipelines in [src directory](./src) directory related project in https://github.com/hmgene/mudcookies/projects/1
 1. How to share programs https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/about-project-boards
 1. Seurat: https://github.com/satijalab/seurat
-1. Batch-correction bantchmarking : https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9) PMID 31948481
+1. Batch-correction bantchmarking : https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9 PMID 31948481
+1. Eleven grand challenges in single-cell data science: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-1926-6
