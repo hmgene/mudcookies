@@ -17,6 +17,18 @@ myboxplot = function(df,features,group){
         geom_boxplot() + facet_wrap(~group)
 }
 
+## this draws cell type proportions per sample 
+## make this reusable
+mybarplot = function(){ 
+	x=d@meta.data %>% group_by(orig.ident,cell_type,repairment) %>% summarize(num.cells=n(),cc= min(clonecount_k5cell))
+	x$id=factor(x$orig.ident,levels= unique(x$orig.ident[order(x$cc)]))
+
+        ggplot(x, aes(x=id,y=num.cells,fill=cell_type)) + geom_bar(stat="identity")  +
+        geom_line(aes(x=id,y=cc*100),col="blue",group=1) +
+        scale_y_continuous(sec.axis=sec_axis(~./100,name="clone count/K5"))
+}
+		     
+		     
 #
 # orig.ident x clusters : cell counts 
 #
