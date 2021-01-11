@@ -17,6 +17,26 @@ myboxplot = function(df,features,group){
         geom_boxplot() + facet_wrap(~group)
 }
 
+# assign cell-types by maximum cell type average  
+# make this reusable
+mycelltype = function(){
+i="Global"
+m=do.call("rbind",apply(as.data.frame(m0[m0$cell_group==i,]),1,function(x){
+        do.call("rbind", lapply(str_extract_all(x[3],"\\w+")[[1]], function(y) c(unlist(x[2]),feature=y)))
+}))
+m=as.data.frame(m)
+
+i=match(m$feature,row.names(d));i=i[!is.na(i)]
+y=d$RNA@data[i,] 
+y=merge(data.frame(feature=row.names(y),y), m)
+
+## simple cell identification
+y1=y[,2:(ncol(y)-1)] %>%
+        aggregate.Matrix( groupings = y$cell_type, fun="mean")
+d$cell_type= row.names(y1)[ apply(y1,2,function(x) which(x==max(x))[1] ) ]
+
+}
+
 ## this draws cell type proportions per sample 
 ## make this reusable
 mybarplot = function(){ 
