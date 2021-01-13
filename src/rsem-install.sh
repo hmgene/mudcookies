@@ -22,6 +22,21 @@ download-rsem-example-files(){
         wget http://genomedata.org/rnaseq-tutorial/HBR_UHR_ERCC_ds_5pc.tar
         cd ..
 }
+rsem-prepare-reference(){
+
+gtf=gencode/gencode.vM25.annotation.gtf
+star=./STAR-2.7.6a/bin/Linux_x86_64
+genome=./gencode/GRCm38.primary_assembly.genome.fa
+output=./rsem_ref/gencode_mouse
+nproc=4
+
+## rsem bug: the output must be in the genome directory
+mkdir -p ${output%/*}
+cp $genome ${output%/*}
+rsem-prepare-reference -p 4 --gtf $gtf  --star --star-path $star $genome $output
+
+        
+}
 echo "#!/bin/bash
 #SBATCH --job-name=rsem-ref
 #SBATCH --time=4-23:00:00
