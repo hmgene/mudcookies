@@ -10,7 +10,7 @@ isgzip=""
 [[ $1 =~ .*gz ]] && isgzip="--star-gzipped-read-file"
 
 mkdir -p ${odir%/*} # RSEM error
-rsem-calculate-expression -p $nproc --paired-end $isgzip \
+rsem-calculate-expression --paired-end $isgzip \
         --star --star-path $star \
         --estimate-rspd \
         --append-names \
