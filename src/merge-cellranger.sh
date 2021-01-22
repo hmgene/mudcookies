@@ -6,7 +6,7 @@ usage="
 	input: a table two columns with columan names (id, cellranger_dir) 
 	output: seurat object <output>.rds
 "
-if [ $# -lt 1 ];then echo "$usage"; return; fi
+if [ $# -lt 1 ];then echo "$usage"; exit; fi
 cat<<'EOF'| sed s#OUTPUT#$2# | sed s#INPUT#$1#  > $2.rcmd
 input="INPUT";
 output="OUTPUT"; 
