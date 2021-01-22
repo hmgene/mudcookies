@@ -3,7 +3,7 @@
 usage="
 	$BASH_SOURCE <input> <output>
 
-	input: merged seurat object 
+	input: a table two columns with columan names (id, cellranger_dir) 
 	output: seurat object <output>.rds
 "
 if [ $# -lt 1 ];then echo "$usage"; return; fi
