@@ -1,10 +1,10 @@
 #!/bin/bash
 
 usage="
-	$BASH_SOURCE <input> <output>
+	$BASH_SOURCE <input.txt> <output.rds>
 
-	input: a table two columns with columan names (id, cellranger_dir) 
-	output: seurat object <output>.rds
+	input.txt: a table two columns with columan names (id, cellranger_dir) 
+	output.rds: seurat object 
 "
 if [ $# -lt 1 ];then echo "$usage"; exit; fi
 cat<<'EOF'| sed s#OUTPUT#$2# | sed s#INPUT#$1#  > $2.rcmd
@@ -26,7 +26,7 @@ j=1; for( i in 1:nrow(inp)){
 	}
 }
 d = merge(d.list[[1]],d.list[2:length(d.list)])
-saveRDS(d,file=paste0(output,".rds"))
+saveRDS(d,file=output)
 EOF
 R --no-sve -f $2.rcmd
 
