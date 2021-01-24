@@ -18,6 +18,7 @@
 ## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
+| celltype identification | https://github.com/rnabioco/clustifyR, [pubmed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7383722/) |
 | celltype identification | [SCCAF](https://www.nature.com/articles/s41592-020-0825-9) | 
 | celltype identification | celltype trainer/predictor| [scPred](https://github.com/powellgenomicslab/scPred/) | 
 | celltype identification | TCR analyzer | [scirpy](https://github.com/icbi-lab/scirpy) |
