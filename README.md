@@ -1,19 +1,20 @@
 ## Our Vision 
-
-  **To prove usefulness of sythetic single-cell data**
-  Single-cell data and the required systems are expensive, but essential for publishing and financing your research.
-  We believe we are able to generate such data without performing expriments.
-  홑세포 데이터는 실험도 분석도 비싸지만 요즘은 대세라 아니할 수도 없습니다. 우리는 그런 실험을 하지 않고 비슷한 데이터를 생성할수 있다고 믿습니다. 
+  **To improve productivity at single-cell study**
+  Single-cell data and analytic tools are growing, but finding the proper solutions is unlikely.
+  This is because we don't have time to review each tool that deals with addressing the related biological questions.
+  We propose a solution that maximize productivity by utilizing human-human interactions. 
   
+  홑방 데이터와 분석 도구는 증가하지만 그게 옳은지 판단하기 힘듭니다.
+  그것은 그 도구가 적절한지 판단할 시간과 관련 생물학적 지식과 통계 알고리즘에 대한 이해가 부족해서 입니다.
+  이해의 주체는 인간이며, 인간 관계를 적절히 조합하여 최대의 효율과 성과를 얻을 수 있다고 생각합니다. 
+    
 ## Our Missions 
-- To make synthetic data useful. 가짜 데이터를 유용하게.
-- To value researchers. 연구자의 가치를 높이기 위해.
+- To find most significant tasks in single-cell analysis
+- To let leaders guide a direction and followers implement ideas.
 
 ## Strategies
-- Find significant and novel topics. 중요한 일부터 합시다.
-- Human-human pair computing. 사람은 사람과 함께 일합니다.  
-- Human-teaching but machine learning. 사람은 선생으로 기계가 스스로 깨우치게 합니다. 
-- Break and celebrate. 먼길 입니다. 자주 쉬고 차를 함께해요. 
+- record your efforts and machine and human readable
+- human-teaching and muchine learning
 
 ## Interesting topics
 | issues | description   | link |
