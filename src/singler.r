@@ -1,6 +1,20 @@
 # obtained from SingleR package
 # understand how to score cell types
 
+input=<seurat.obj>
+output=<prefix>
+
+library(celldex)
+ref.hpca <- HumanPrimaryCellAtlasData()
+ref.immgen <- ImmGenData()
+library(SingleR)
+pred=SingleR(test=as.SingleCellExperiment(d),
+        ref=ref.hpca,labels=ref.hpca$label.main, assay.type.test=1)
+saveRDS(pred,file=paste0(output,".singler_hpca.rds"))
+
+
+
+
 SingleR = function (method = "single", sc_data, ref_data, types, clusters = NULL, 
     genes = "de", quantile.use = 0.8, p.threshold = 0.05, fine.tune = TRUE, 
     fine.tune.thres = 0.05, sd.thres = 1, do.pvals = T, numCores = SingleR.numCores, 
