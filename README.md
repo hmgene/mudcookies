@@ -19,7 +19,8 @@
 ## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
-| trajectory comparison | https://biocellgen-public.svi.edu.au/mig_2019_scrnaseq-workshop/public/trajectory-inference.html |
+| single-cell analysis workshop | scone, a cell filter | [link](https://bioconductor.github.io/BiocWorkshops/analysis-of-single-cell-rna-seq-data-dimensionality-reduction-clustering-and-lineage-inference.html#differential-expression-analysis-along-lineages) |
+| trajectory comparison | codes and examples | [link](https://biocellgen-public.svi.edu.au/mig_2019_scrnaseq-workshop/public/trajectory-inference.html) |
 | celltype identification | https://github.com/rnabioco/clustifyR, [pubmed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7383722/) |
 | celltype identification | [SCCAF](https://www.nature.com/articles/s41592-020-0825-9) | 
 | celltype identification | celltype trainer/predictor| [scPred](https://github.com/powellgenomicslab/scPred/) | 
