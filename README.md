@@ -46,7 +46,8 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 | data | directory for data | [data](data) |
 | projects | directory for projects | [projects](projects) |
 
-## Useful Links
+## Useless links 
+1. code obfuscation : https://skyul.tistory.com/333?fbclid=IwAR2q-ox0uR51Q58700UddoOpf-uDTHqi_FGje7YgqxvGeMuvM2Ayn3dNNrQ
 1. need a single cell chat bot : https://zdnet.co.kr/view/?no=20210106171117&fbclid=IwAR1wZoJV286iaJxnUKjtp-bewmXFAz42PzmTDdDHde7_YrqycFYXWyQnVFI
 1. word2vec : https://jef.works/blog/2018/02/06/fun-with-word2vec/
 1. data model google plot like local panda : https://pypi.org/project/pandasgui/
