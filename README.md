@@ -1,3 +1,7 @@
+## News
+Please contact me thru https://www.facebook.com/groups/koreanbioinformatics for joining or comments
+
+
 ## Our Vision 
   **To improve productivity at single-cell study**
   Single-cell data and analytic tools are growing, but finding the proper solutions is unlikely.
