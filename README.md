@@ -47,6 +47,7 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 | projects | directory for projects | [projects](projects) |
 
 ## Useless links 
+1. logical fallacies : cell heterogeneity complicates identification https://www.logicalfallacies.org/?fbclid=IwAR25EwirAf4imoPV7nYrVopaClzEKuuOv4BoaEjq4QSuoUY0WeS6Wp_7nFY
 1. code obfuscation : https://skyul.tistory.com/333?fbclid=IwAR2q-ox0uR51Q58700UddoOpf-uDTHqi_FGje7YgqxvGeMuvM2Ayn3dNNrQ
 1. need a single cell chat bot : https://zdnet.co.kr/view/?no=20210106171117&fbclid=IwAR1wZoJV286iaJxnUKjtp-bewmXFAz42PzmTDdDHde7_YrqycFYXWyQnVFI
 1. word2vec : https://jef.works/blog/2018/02/06/fun-with-word2vec/
