@@ -1,7 +1,5 @@
 ## How to join
-Use https://www.facebook.com/groups/koreanbioinformatics for joining or comments
-You will be able to add projects, codes, and documents.
-
+Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 
 ## Our Vision 
   **To improve productivity at single-cell study**
