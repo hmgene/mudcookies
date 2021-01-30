@@ -2,11 +2,10 @@
 
 # How to write codes
 ## Some rules
-- each file must be independently runnable
+- tag your name or id,   <yourid>-<toolgroupname>-<functionname>.sh
 - provide test examples in ../test directory if possible
 - use proper suffices for different languages such as R, perl, python
 - the runnable BASH wrapper must be independently runnable on BASH
-- use issues for errors and installation  
 
 ## how to wrap with bash
 ### hello-r.sh
