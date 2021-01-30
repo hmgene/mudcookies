@@ -1,5 +1,6 @@
-## News
-Please contact me thru https://www.facebook.com/groups/koreanbioinformatics for joining or comments
+## How to join
+Use https://www.facebook.com/groups/koreanbioinformatics for joining or comments
+You will be able to add projects, codes, and documents.
 
 
 ## Our Vision 
@@ -13,12 +14,12 @@ Please contact me thru https://www.facebook.com/groups/koreanbioinformatics for 
   이해의 주체는 인간이며, 인간 관계를 돈독히 하여 하고자 하는 일을 할 수 있다고 믿습니다. 
     
 ## Our Missions 
-- To find most significant tasks in single-cell analysis
-- To let leaders guide a direction and followers implement ideas.
+- To find problems in single-cell analysis
+- To find solutions from people 
 
 ## Strategies
-- record your efforts and machine and human readable
-- human-teaching and muchine learning
+- Use github issueing and pulling mechanism 
+- Converation in open social network [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
 ## Interesting topics
 | issues | description   | link |
