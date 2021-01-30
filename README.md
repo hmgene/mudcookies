@@ -16,7 +16,7 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 - To find solutions from people 
 
 ## Strategies
-- Use github issueing and pulling mechanism 
+- Use github issueing and pulling mechanism in a [project]( https://github.com/hmgene/mudcookies/projects )
 - Converation in open social network [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
 ## Interesting topics
