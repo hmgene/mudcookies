@@ -2,24 +2,24 @@
 Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 
 ## Our Vision 
-  **People's Science ** 
-  As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement,
-  now we aware that we can do research what we want to do. 
-  Single-cell data and analytic tools are growing, but finding the proper solutions is unlikely.
-  This is because we don't have time to review each tool that deals with addressing the related biological questions.
-  We propose a solution that provides single-cell solutions by warm-heart human-human interactions. 
+  **People's Science**. As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement,
+  we aware that ignornce and prejudice will be revealed in many other area, including bioinformatics.  
+  Single-cell data are expensive and the analytic tools are difficult to understand. 
+  This is not because we are not smart but because we are not in the right environment. 
+  We propose a way to conduct single-cell research with people's participation. 
   
-  홑방 데이터와 분석 도구는 증가하지만 그게 옳은지 판단하기 힘듭니다.
-  그것은 그 도구가 적절한지 판단할 시간과 관련 생물학적 지식과 통계 알고리즘에 대한 이해가 부족해서 입니다.
-  이해의 주체는 인간이며, 인간 관계를 돈독히 하여 하고자 하는 일을 할 수 있다고 믿습니다. 
+  **대중과학** 방탄소년단(BTS)이 보여준 편견과 무지는 여러 다른 분야 뿐 아니라 생명정보학에도 드러날 겁니다. 
+  홑세포 데이터는 비싸고 분석도구들은 너무 이해하기 어렵습니다.
+  그러나 그것이 내가 모자라서가 아닙니다. 단지, 그것을 할수 있는 환경에 있지 않은 것 뿐입니다. 
+  우리는 이곳으로 부터 홑세포 연구를 인민의 참여를 통해 할수 있는 길을 마련하고자 합니다.  
     
 ## Our Missions 
-- To find problems in single-cell analysis
-- To find solutions from people 
+- To build mudcookies (tools and data) for bioinformatics people 
+- To organize association 
 
 ## Strategies
-- Use github issueing and pulling mechanism in a [project]( https://github.com/hmgene/mudcookies/projects )
-- Converation in open social network [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
+- Record people's efforts in free github resource [project]( https://github.com/hmgene/mudcookies/projects )
+- Discuss to each other in a social network [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
 ## Interesting topics
 | issues | description   | link |
