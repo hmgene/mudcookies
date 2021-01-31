@@ -21,6 +21,18 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 - Record people's efforts in free github resource [project]( https://github.com/hmgene/mudcookies/projects )
 - Discuss to each other in a social network [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
+## Our projects
+### Active Projects
+- project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
+- project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
+
+### Structure 
+| directory | description | link |
+| :-: | :-:  | :-: |
+| src | directory for codes | [src](src) |
+| data | directory for data | [data](data) |
+| projects | directory for projects | [projects](projects) |
+
 ## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
@@ -37,16 +49,7 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 | celltype db | CellMarker db | [CellMarker](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6323899/) |
 | interactive clustering visualization | Tune Seurat Cluster resolution overlaying with known markers | [link](https://baderlab.github.io/scClustViz/#example-output) |
 
-## Our projects
-### Active Projects
-- project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
-- project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
-### Structure 
-| directory | description | link |
-| :-: | :-:  | :-: |
-| src | directory for codes | [src](src) |
-| data | directory for data | [data](data) |
-| projects | directory for projects | [projects](projects) |
+
 
 ## Useless links 
 1. logical fallacies : cell heterogeneity complicates identification https://www.logicalfallacies.org/?fbclid=IwAR25EwirAf4imoPV7nYrVopaClzEKuuOv4BoaEjq4QSuoUY0WeS6Wp_7nFY
