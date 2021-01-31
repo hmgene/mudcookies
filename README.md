@@ -2,7 +2,8 @@
 Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 
 ## Our Vision 
-  **To improve productivity at single-cell study**
+  **People's Science ** As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement,
+  now we aware that we can do research what we want to do. 
   Single-cell data and analytic tools are growing, but finding the proper solutions is unlikely.
   This is because we don't have time to review each tool that deals with addressing the related biological questions.
   We propose a solution that provides single-cell solutions by warm-heart human-human interactions. 
