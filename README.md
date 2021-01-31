@@ -31,7 +31,7 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 | :-: | :-:  | :-: |
 | src | directory for codes | [src](src) |
 | data | directory for data | [data](data) |
-| projects | directory for projects | [projects](projects) |
+| projects | directory for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
 
 ## Interesting topics
 | issues | description   | link |
