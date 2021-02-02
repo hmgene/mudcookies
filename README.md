@@ -15,14 +15,13 @@
 
 
 ## Strategies
-- Free for all all for free
-- Allow people to lead a project [project]( https://github.com/hmgene/mudcookies/projects )
-- Allow people to raise the voice [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
+- all lead and follow any project [project]( https://github.com/hmgene/mudcookies/projects )
+- all raise the voice [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
 ## How to join
 Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 
-## Our projects
+## Projects
 ### Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
 - project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
@@ -33,6 +32,7 @@ Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 | src | directory for codes | [src](src) |
 | data | directory for data | [data](data) |
 | projects | directory for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
+
 
 ## Interesting topics
 | issues | description   | link |
