@@ -20,8 +20,8 @@ We propose a way of conducting single-cell research through people's participati
 
 
 ## Strategies
-- all lead and follow any project [project]( https://github.com/hmgene/mudcookies/projects )
-- all raise the voice [KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
+- all lead and follow any [project]( https://github.com/hmgene/mudcookies/projects )
+- all raise the voice@[KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
 
 ## How to join
 Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
