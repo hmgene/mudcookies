@@ -40,6 +40,7 @@ We propose a way of conducting single-cell research through people's participati
 ## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
+| sc-micro  | single-cell microbiome and immunotherapy | [science2020](https://science.sciencemag.org/content/early/2020/12/09/science.abb5920?rss=1) |
 | celltype identification | CellAlign | [link](https://www.nature.com/articles/s41592-019-0529-1) |
 | diff trajectory | tradeSeq | [codes](https://statomics.github.io/tradeSeq/articles/tradeSeq.html) |
 | trajectory | slingshot | [ggplot_example](https://biocellgen-public.svi.edu.au/mig_2019_scrnaseq-workshop/public/trajectory-inference.html) [test_example](http://www.bioconductor.org/packages/release/bioc/vignettes/slingshot/inst/doc/conditionsVignette.html), [run_example](https://bustools.github.io/BUS_notebooks_R/slingshot.html) |
