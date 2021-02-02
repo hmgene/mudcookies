@@ -12,7 +12,7 @@ We propose a way of conducting single-cell research through people's participati
 부자 홑세포 연구를 가난한 인민의 힘으로 할 수 있습니다.
 
 ## Our Vision 
-**Free for all all for Free** 모두를 위한 공짜 공짜를 위한 모두
+**Free for all all for Free** **모두에게 공짜라는 것은 모두가 공짜라는 것** 
 
 ## Our Missions  
 - to help people. 타인을 도웁시다.
