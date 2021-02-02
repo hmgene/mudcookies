@@ -2,7 +2,7 @@
 
 **People's Science**. As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement, 
 we aware that ignornce and prejudice will be revealed in many other areas, including bioinformatics. 
-Single-cell data are expensive and the analytic tools are difficult to understand. 
+Single-cell data, resources and products of recent bioinformatics, are expensive and the analytic tools are difficult to understand. 
 This is not because we are not smart but because there are barriers between us. 
 We propose a way of conducting single-cell research through people's participation. 
 
