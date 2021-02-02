@@ -6,15 +6,12 @@
 
 **대중과학** 방탄소년단(BTS)이 보여준 편견과 무지는 여러 다른 분야 뿐 아니라 생명정보학에도 드러날 겁니다. 홑세포 데이터는 비싸고 분석도구들은 너무 이해하기 어렵습니다. 그러나 그것이 내가 모자라서가 아닙니다. 단지, 그것을 할수 있는 환경에 있지 않은 것 뿐입니다. 부자 홑세포 연구를 가난한 인민의 힘으로 할 수 있습니다. 그것을 보여줍시다.|
 
-
 ## Our Vision 
-**Free for all all for Free**
+**Free for all all for Free** 모두를 위한 공짜 공짜를 위한 모두
 
 ## Our Missions  
-| England | Korea |
-| :- | :- |
-| help people | 타인을 도와요 |
-| value people | 우리의 가치를 높여요 |
+- to help people. 타인을 도웁시다.
+- to value people. 인간의 가치를 회복합시다.
 
 
 ## Strategies
