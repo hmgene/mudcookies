@@ -2,16 +2,19 @@
 Use https://www.facebook.com/groups/koreanbioinformatics for Q/As
 
 ## Our Vision 
-  **People's Science**. As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement,
-  we aware that ignornce and prejudice will be revealed in many other areas, including bioinformatics. 
+| English | Korean |
+| :- | :- |
+|  **People's Science**. As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement, 
+we aware that ignornce and prejudice will be revealed in many other areas, including bioinformatics. 
   Single-cell data are expensive and the analytic tools are difficult to understand. 
   This is not because we are not smart but because we are not in the right environment. 
-  We propose a way of conducting single-cell research through participation of people. 
+  We propose a way of conducting single-cell research through participation of people. | 
   
   **대중과학** 방탄소년단(BTS)이 보여준 편견과 무지는 여러 다른 분야 뿐 아니라 생명정보학에도 드러날 겁니다. 
   홑세포 데이터는 비싸고 분석도구들은 너무 이해하기 어렵습니다.
   그러나 그것이 내가 모자라서가 아닙니다. 단지, 그것을 할수 있는 환경에 있지 않은 것 뿐입니다. 
-  우리는 이곳으로 부터 홑세포 연구를 인민의 참여를 통해 할수 있는 길을 마련하고자 합니다.  
+  우리는 이곳으로 부터 홑세포 연구를 인민의 참여를 통해 할수 있는 길을 마련하고자 합니다.  |
+  
     
 ## Our Missions 
 - To build mudcookies (tools and data) for bioinformatics people 
