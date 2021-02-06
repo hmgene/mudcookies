@@ -40,7 +40,7 @@ We propose a way of conducting single-cell research through people's participati
 ## Interesting topics
 | issues | description   | link |
 | :-: | :-  | -: |
-| deconvolution single-cell | benchmarking review | [natcomm2020](https://www.nature.com/articles/s41467-020-19015-1) |
+| deconvolution single-cell | benchmarking review, short time and memory [MuSiC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342984/)| [natcomm2020](https://www.nature.com/articles/s41467-020-19015-1) |
 | sc-micro, immunesuppressive inosine pathway  | single-cell microbiome and immunotherapy, inosine pathway | [science2020](https://science.sciencemag.org/content/early/2020/12/09/science.abb5920?rss=1) |
 | celltype identification | CellAlign | [link](https://www.nature.com/articles/s41592-019-0529-1) |
 | diff trajectory | tradeSeq | [codes](https://statomics.github.io/tradeSeq/articles/tradeSeq.html) |
