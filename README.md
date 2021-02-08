@@ -1,40 +1,17 @@
-## Human's thoughts
+## Do bioinformatics research for free
+We are running some [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
+We are [Korean Bioinformaticists](https://www.facebook.com/groups/koreanbioinformatics).
 
-**People's Science**. As shown in [BTS](https://youtu.be/Rhj01Lbuw0I) movement, 
-we aware that ignornce and prejudice will be revealed in many other areas, including bioinformatics. 
-Single-cell data, resources and products of recent bioinformatics, are expensive and the analytic tools are difficult to understand. 
-This is not because we are not smart but because there are barriers between us. 
-We propose a way of conducting single-cell research through people's participation. 
-
-**대중과학** 방탄소년단(BTS)이 보여준 편견과 무지는 여러 다른 분야 뿐 아니라 생명정보학에도 드러날 겁니다. 
-홑세포 데이터는 비싸고 분석도구들은 너무 이해하기 어렵습니다. 
-그러나 그것이 내가 모자라서가 아니라 우리사이에 장벽이 있기 때문입니다. 
-부자 홑세포 연구를 가난한 인민의 힘으로 할 수 있습니다.
-
-## Our Vision 
-**Free for all all for Free** **모두에게 공짜라는 것은 모두가 공짜라는 것** 
-
-## Our Missions  
-- to help people. 타인을 도웁시다.
-- to value people. 인간의 가치를 회복합시다.
-
-
-## Strategies
-- all lead and follow any [project]( https://github.com/hmgene/mudcookies/projects )
-- all raise the voice@[KoreanBioinformatics](https://www.facebook.com/groups/koreanbioinformatics)
-- make a society https://www.facebook.com/groups/koreanbioinformatics 
-
-## Projects
-### Active Projects
+## Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
 - project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
 
-### Structure 
-| directory | description | link |
+## Structure 
+| description | link |
 | :-: | :-:  | :-: |
-| src | directory for codes | [src](src) |
-| data | directory for data | [data](data) |
-| projects | directory for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
+| directory for codes | [src](src) |
+| directory for data | [data](data) |
+| directories for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
 
 
 ## Interesting topics
