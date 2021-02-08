@@ -3,10 +3,10 @@ We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinform
 In short, we want to do some bioinformatics projects without funds. 
 Some poor Africans have mud cookies. Likewise, how bout creating data and code before getting the actual data?
 
-우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터파라다임에 편승해 밥을 벌어먹는 생명정보학자들이죠.
-이런 사이트를 만들어 공짜로 돈안들이고 연구를 할수 없을까 시작해 봅니다.
-아프라카에서는 배고픔을 달래기 위해 흙빵을 만들어 먹는다 들었습니다. 
-배고픈 생명정보사들도 흙빵이라도 지어먹고 힘내서 앞으로 나가길 희망해 봅니다.
+우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터파라다임에 편승해 밥을 벌어먹죠. 
+기안서 쓰기 귀찮고(되지도 않고) 돈안들이고 연구를 할수 없을까 시작해 봅니다.
+아프라카 가난한 분들은 배고픔을 달래기 위해 흙빵을 만들어 먹습니다.  
+우리도 배고프면 뭐라도 해서 살아 남아야지요. 
 
 
 ## Active Projects
