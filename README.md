@@ -1,5 +1,5 @@
 ## Let's do bioinformatics research together
-We are [Korean Bioinformatcists] running some [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
+We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics) running bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
 
 
 ## Active Projects
