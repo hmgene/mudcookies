@@ -1,5 +1,6 @@
-## Let's do bioinformatics research together
+## Who we are, 누구냐 우리난! 
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics) running bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
+우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터파라다임에 편승해 밥을 벌어먹는 생명정보학자들이죠.
 
 
 ## Active Projects
