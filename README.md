@@ -1,6 +1,6 @@
-## Do bioinformatics research for free
-We are running some [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
-We are [Korean Bioinformaticists](https://www.facebook.com/groups/koreanbioinformatics).
+## Let's do bioinformatics research together
+We are [Korean Bioinformatcists] running some [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
+
 
 ## Active Projects
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
