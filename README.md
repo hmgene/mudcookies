@@ -15,7 +15,7 @@ Some poor Africans have mud cookies. Likewise, how bout creating data and code b
 
 ## Structure 
 | description | link |
-| :-: | :-:  | :-: |
+| :-:  | :-: |
 | directory for codes | [src](src) |
 | directory for data | [data](data) |
 | directories for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
