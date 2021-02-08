@@ -1,6 +1,13 @@
-## Who we are, 누구냐 우리난! 
+## Who we are! 누구냐, 우린! 
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics) running bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) focusing on single-cell data.
+Simply, we want to do some bioinformatics projects for living without funding.
+Some poor African people have mud cookies. Likewise, why don't we make some data and codes 
+before we get real ones.
+
 우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터파라다임에 편승해 밥을 벌어먹는 생명정보학자들이죠.
+이런 사이트를 만들어 공짜로 돈안들이고 연구를 할수 없을까 시작해 봅니다.
+아프라카에서는 배고픔을 달래기 위해 흙빵을 만들어 먹는다 들었습니다. 배고픈 생명정보사들도
+흙빵이라도 지어먹고 힘내서 앞으로 나가길 희망해 봅니다.
 
 
 ## Active Projects
