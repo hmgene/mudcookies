@@ -9,7 +9,7 @@ Some poor Africans have mud cookies. Likewise, how bout creating data and code b
 우리도 배고프면 뭐라도 해서 살아 남아야지요. 
 
 
-## Active Projects
+## How to make mudcookies 흙빵 제조법
 - project 1: celltype identification from single-cell data https://github.com/hmgene/mudcookies/projects/1
 - project 2: celltype identification from literatures https://github.com/hmgene/mudcookies/projects/3
 
