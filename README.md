@@ -1,12 +1,13 @@
 ## Who we are! 누구냐, 넌! 
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics) working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
 We believe that projects can be carried out without funds.
-But like poor Africans, we need something to start with.
-This is the place where you can do. 
+But as poor Africans cook mudcookies, we need something to start with.
+This is the place. 
 
 우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터를 사용해 연구하죠. 
 기안서 쓰기 귀찮고(되지도 않고) 돈안들이고 연구를 할수 없을까 시작해 봅니다.
-그게 쉽지않지만 이곳이 여러분의 시작점이 되길 기원합니다. 
+가난한 아프리가 분들이 흙으로 떡을지어 먹듯 우리도 시작할 곳이 필요합니다.
+이곳이 그곳입니다.
 
 ## How to make mudcookies 흙빵 제조법
 Read, follow, and create!
