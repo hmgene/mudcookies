@@ -1,7 +1,7 @@
 ## Who we are! 누구냐, 넌! 
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics) working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
 In short, we want to do some bioinformatics projects without funds. 
-Some poor Africans have mud cookies. Likewise, how bout creating data and code before getting the actual data?
+Some poor Africans have mud cookies. Likewise, how about creating data and code before getting the actual data?
 
 우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터파라다임에 편승해 밥을 벌어먹죠. 
 기안서 쓰기 귀찮고(되지도 않고) 돈안들이고 연구를 할수 없을까 시작해 봅니다.
