@@ -13,8 +13,9 @@ This is the place.
 Read, try, and cowork!
 | description | link |
 | :-:  | :-: |
-| directory for codes | [src](src) |
-| directory for data | [data](data) |
-| directories for projects | [projects](https://github.com/hmgene/mudcookies/projects) |
+| code base | [src](src) |
+| data base | [data](data) |
+| activity base | [projects](https://github.com/hmgene/mudcookies/projects) |
+| knowledge base | [wiki](https://github.com/hmgene/mudcookies/wiki) |
 
 
