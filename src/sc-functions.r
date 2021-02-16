@@ -1,4 +1,11 @@
 
+parse_celltype=function(x){
+        do.call("rbind", apply(as.data.frame(x),1,function(x){
+                do.call("rbind", lapply(str_extract_all(x[3],"\\w+")[[1]], function(y) c(unlist(x[2]),feature=y)))
+        }))
+}
+
+			       
 myboxplot = function(df,features,group){
 	require("tibble")
 	require("dplyr")
