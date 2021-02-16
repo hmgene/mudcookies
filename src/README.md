@@ -5,7 +5,7 @@
 - tag your name or id,   <yourid>-<toolgroupname>-<functionname>.sh
 - provide test examples in ../test directory if possible
 - use proper suffices for different languages such as R, perl, python
-- the runnable BASH wrapper must be independently runnable on BASH
+- make it non-redundant useful to others
 
 ## how to wrap with bash
 ### hello-r.sh
