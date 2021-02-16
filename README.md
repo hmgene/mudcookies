@@ -1,5 +1,5 @@
 ## Who we are! 누구냐, 넌! 
-We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and the friends working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
+We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
 We believe that projects can be carried out without funds.
 But as poor Africans cook mudcookies, we need something to start with.
 This is the place. 
