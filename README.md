@@ -1,16 +1,15 @@
-## Who we are! 누구냐, 넌! 
+## About us  
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
-We believe that projects can be carried out without funds.
-But as poor Africans cook mudcookies, we need something to start with.
-This is the place. 
+We are helping each other and building a trust-based scientific community.
+Mudcookies are the conceptual resources which can be shared with people for free.
 
-우리는 한국 생명정보학자들입니다. 주로 홑세포 데이터를 사용해 연구하죠. 
-기안서 쓰기 귀찮고(되지도 않고) 돈안들이고 연구를 할수 없을까 시작해 봅니다.
-가난한 아프리가 분들이 흙으로 떡을지어 먹듯 우리도 시작할 곳이 필요합니다.
-이곳이 그곳입니다.
+## How to join 
+Here are the structures where you can help (yourself).
+You can setup a project at [project] and collect contributors to work with.
+The sources and data are to be stored and shared in [src] and [data], respectively.
+All the materials are free to update on your responsibility,
+but please use issue and pull process to work together if possible.
 
-## How to make mudcookies 흙빵 제조법
-Look around and just try it
 | description | link |
 | :-:  | :-: |
 | code base | [src](src) |
