@@ -12,9 +12,10 @@ but please use issue and pull process to work together if possible.
 
 | description | link |
 | :-:  | :-: |
-| code base | [src](src) |
-| data base | [data](data) |
-| activity base | [projects](https://github.com/hmgene/mudcookies/projects) |
-| knowledge base | [wiki](https://github.com/hmgene/mudcookies/wiki) |
+| project materials and knowledge base | [wiki](https://github.com/hmgene/mudcookies/wiki) |
+| project activity base, work with collaborators | [projects](https://github.com/hmgene/mudcookies/projects) |
+| code base, use your name tag for seperation | [src](src) |
+| data base, upload <100mb contents for testing and input  | [data](data) |
 
-
+## Some star projects
+comming soon!
