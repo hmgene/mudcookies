@@ -11,7 +11,7 @@ All the materials are free to update on your responsibility,
 but please use issue and pull process to work together if possible.
 
 | description | link |
-| :-:  | :-: |
+| :-  | :- |
 | project materials and knowledge base | [wiki](https://github.com/hmgene/mudcookies/wiki) |
 | project activity base, work with collaborators | [projects](https://github.com/hmgene/mudcookies/projects) |
 | code base, use your name tag for seperation | [src](src) |
