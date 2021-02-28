@@ -1,10 +1,17 @@
 
-parse_celltype=function(x){
+parse_celltype=function(x,group.by){
         do.call("rbind", apply(as.data.frame(x),1,function(x){
-                do.call("rbind", lapply(str_extract_all(x[3],"\\w+")[[1]], function(y) c(unlist(x[2]),feature=y)))
+                do.call("rbind", lapply(str_extract_all(x[3],"\\w+")[[1]], function(y) c(unlist(x[group.by]),feature=y)))
         }))
 }
 
+## example 
+r0=read_sheet("https://docs.google.com/spreadsheets/d/1r1A1NRPK4muWyhqQOFAzs2dQ_v7d71otYWVuQnhG_cs/edit#gid=0",sheet="used_bulk")
+r=parse_celltype( r0,1)
+r=data.table(r)[, .(cell_type=paste(cell_type,collapse="|")), by=feature]
+
+
+			       
 			       
 myboxplot = function(df,features,group){
 	require("tibble")
