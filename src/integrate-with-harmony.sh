@@ -24,9 +24,10 @@ d = RunPCA(d, pc.genes= VariableFeatures(object = d))
 
 d=RunHarmony(d, group.by.vars=c("orig.ident"),assay.use="RNA", theta=2,sigma=0.1);#,nclust=10);
 
-d=RunUMAP(d, reduction="harmony",dims=1:20)
-d=FindNeighbors(d, reduction="harmony",dims=1:20)
-d=FindClusters(d,graph.name="RNA_snn", resolution=0.5)
+d=RunUMAP(d, reduction="harmony",dims=1:40)
+d=FindNeighbors(d, reduction="harmony",dims=1:40)
+## multi-resolution
+d=FindClusters(d,graph.name="RNA_snn", resolution=seq(0,1,by=0.2))
 saveRDS(d,output)
 
 EOF
