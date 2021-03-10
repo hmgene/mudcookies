@@ -1,3 +1,8 @@
+
+#module load cellranger
+$cellranger mkfastq --id ${flowcell} --run=${bcl_dir} --samplesheet=${samplesheet} --localcores=${cores} --localmem=${memory} --output-dir=${dataout_dir}${flowcell} --qc ${ignore_dual_index} 2>$stderr_file | tee -a ${stdout_file}
+
+
 input="
 #id     fastq   prefix
 s1      180611_A00405_0027_BH5LT2DSXX   1_LUL
