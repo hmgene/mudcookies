@@ -1,7 +1,8 @@
 ## About us  
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
-Scientific starvation is getting worse with social polarization in funding, institutional support, and education.  
-We are helping each other and building a trust-based scientific community which help reducing scientific hunger and loneliness.
+Scientific hunger, exacerbated by social polarization in funding, support and education, reduce survial of diverse research and participation. 
+We are helping each other and building a trust-based scientific community.
+This fair community start action first to reduce scientific hunger and loneliness.
 Mudcookies are the conceptual resources which can be shared with people for free.
 
 
