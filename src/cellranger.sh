@@ -2,6 +2,8 @@
 #file -i $input
 #iconv -f us-asicii -t UTF-8 2_12_2021_Louveau_sample_sheet.csv  > o.csv
 #file -i o.csv
+#cat $input | perl -npe '$_=~s/\r\n/\n/g;' > $output
+
 
 cellranger mkfastq --id=tutorial_walk_through \
 --run=210203_A01101_0095_AH2N2LDRXY \
