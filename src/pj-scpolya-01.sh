@@ -73,6 +73,27 @@ if [ $# -lt 1 ]; then echo "$usage"; return; fi
 for bam in bam/*.bam;do
         n=${bam#*\.}
         n=${n%\.bam}
-        samtools view -b $bam | sam_to_bed12 -  | head
+      samtools view $bam | sam_to_bed12 -  | perl -ne 'use strict;
+                my %r=();
+                while(<STDIN>){chomp; my@d=split/\t/,$_;
+                        my @l=split/,/,$d[10];
+                        my @s=split/,/,$d[11];
+                        map {
+                                my $k=$d[0].":".$d[5];
+                                $r{$k}{$d[1]+$s[$_]} ++;
+                                $r{$k}{$d[1]+$s[$_] + $l[$_]} --;
+                        }0..$#l;
+                }
+                ## bedgraph output
+                foreach my $k (keys %r){
+                        my ($c,$t)=split /:/,$k;
+                        my $s=0; my @x=sort {$a<=>$b} keys %{$r{$k}};
+                        map {
+                                $s+=$r{$k}{$x[$_]};
+                                print join("\t",$c,$x[$_],$x[$_+1],$s,$t),"\n";
+                        } 0..($#x-1);
+                }
+        '
+        exit
         exit
 done
