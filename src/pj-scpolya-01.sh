@@ -69,11 +69,9 @@ if [ $# -lt 1 ]; then echo "$usage"; return; fi
                 )),"\n";
         '
 }
-
-for bam in bam/*.bam;do
-        n=${bam#*\.}
-        n=${n%\.bam}
-      samtools view $bam | sam_to_bed12 -  | perl -ne 'use strict;
+bed12_to_bedgraph(){
+cat $1 | perl -ne 'use strict;
+                my $w=1000; #window for peak
                 my %r=();
                 while(<STDIN>){chomp; my@d=split/\t/,$_;
                         my @l=split/,/,$d[10];
@@ -88,12 +86,46 @@ for bam in bam/*.bam;do
                 foreach my $k (keys %r){
                         my ($c,$t)=split /:/,$k;
                         my $s=0; my @x=sort {$a<=>$b} keys %{$r{$k}};
-                        map {
-                                $s+=$r{$k}{$x[$_]};
-                                print join("\t",$c,$x[$_],$x[$_+1],$s,$t),"\n";
-                        } 0..($#x-1);
+                        for(my $i=0;$i<$#x;$i++){
+                                $s+=$r{$k}{$x[$i]};
+                                print join("\t",$c,$x[$i],$x[$i+1],$s,$t),"\n";
+                        } 
                 }
         '
+}
+find_peak(){
+local wind=${2:-200}
+local min=${3:-10}
+cat $1 | perl -ne 'use strict; 
+        my $w='$wind';
+        my $min='$min';
+        my ($c1,$t1)=(0,0);
+        my @buf=();
+        my $mp=0;
+        while(<STDIN>){chomp; my ($c,$s,$e,$n,$t)=split/\t/,$_;
+                if($c1 != $c || $t1 != $t || $s - $mp > $w){  ## reset a window
+                        if( $t1 eq "+"){
+                                my @x=sort {$a->[0] <=> $b->[0] } @buf;
+                                my $m=0;
+                                map {
+                                        if($_->[2] > $m){
+                                                $m=$_->[2]; $mp=$_->[0];
+                                        }
+                                } @x;
+                                print "$c1 $t1 $mp $m\n";
+                        }
+                        @buf=();
+                }
+                push @buf,[$s,$e,$n];
+                $c1=$c; $t1=$t;
+        }
+        '
+}
+
+for bam in bam/*.bam;do
+        n=${bam#*\.}
+        n=${n%\.bam}
+      samtools view $bam | sam_to_bed12 -  | bed12_to_bedgraph - |findpeak -
         exit
         exit
 done
