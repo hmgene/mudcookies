@@ -1,5 +1,6 @@
 
 parse_celltype=function(x,group.by){
+	require(stringr)
         do.call("rbind", apply(as.data.frame(x),1,function(x){
                 do.call("rbind", lapply(str_extract_all(x[3],"\\w+")[[1]], function(y) c(unlist(x[group.by]),feature=y)))
         }))
