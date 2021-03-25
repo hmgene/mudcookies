@@ -1,0 +1,2 @@
+## download cellranger directories with the structure
+rsync -avzmn  --include filtered*/* --include */ --exclude *  kimji@amc-hertz:~/scRNA/Louveaa/cellranger .
