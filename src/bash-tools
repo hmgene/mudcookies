@@ -3,3 +3,9 @@ rsync -avzmn --include '*/' --include 'filtered*/*'  --exclude '*' kimj23@10.88.
 ## and then run 
 rsync -avzm --include '*/' --include 'filtered*/*'  --exclude '*' kimj23@10.88.8.18:'~/isilon/bt_confocal/10X\ genomics/MCMSvsTMS_cellranger' .
 
+
+## from slum, check the file list
+rsync -avmn --include '*/' --include 'filtered*/*'  --exclude '*' kimj23@10.88.8.18:'~/isilon/bt_confocal/10X\ genomics/MCMSvsTMS_cellranger' .
+
+## and then run
+rsync -avm --include '*/' --include 'filtered*/*'  --exclude '*' kimj23@10.88.8.18:'~/isilon/bt_confocal/10X\ genomics/MCMSvsTMS_cellranger' .
