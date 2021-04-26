@@ -80,14 +80,18 @@ countcell=function(seurat.obj){
 #
 # avgexp
 #
+# note: set active ident before runing d = SetIdent(d, value= "..")
+# usage: avg=avgexp(d)
+
 avgexp = function(seuratobj){
-	require(Matrix.utils)
-	require(tibble)
-	require(dplyr)
-	avg = t(seuratobj$RNA@data) %>%    
-		aggregate.Matrix( groupings=seuratobj@meta.data$seurat_clusters, fun = "mean") %>%              
-		t() %>% data.frame(check.names=F) %>% rownames_to_column(var="feature")
+        require(Matrix.utils)
+        require(tibble)
+        require(dplyr)
+        avg = t(seuratobj$RNA@data) %>%
+                aggregate.Matrix( groupings=Idents(seuratobj), fun = "mean") %>%                               
+                t() %>% data.frame(check.names=F) %>% rownames_to_column(var="feature")
 }
+
 #
 # Heatmap of markers
 #  markers: (feautre, type) columns
