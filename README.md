@@ -6,9 +6,10 @@ This fair community starts action first to reduce scientific hunger and loneline
 Mudcookies are the conceptual resources which can be shared with people for free.
 
 ## How to join 
-Here are the structures where you can help anybody including yourself.
+Here are the structures where you can start some tasks.
 You can setup a project at [project] and collect contributors to work with.
 The sources and data are to be stored and shared in [src] and [data], respectively.
+These are simple but useful, and machine readable. 
 All the materials are free to update on your responsibility,
 but please use issue and pull process to work together if possible.
 
