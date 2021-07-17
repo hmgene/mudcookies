@@ -1,15 +1,15 @@
 ## About us  
-We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends working on bioinformatics [projects](https://github.com/hmgene/mudcookies/projects) using big, expensive single-cell data.
-Scientific hunger, exacerbated by social polarization in funding, support and education, reduce survial of diverse research and participation. 
-We are helping each other and building a trust-based scientific community.
-This fair community starts action first to reduce scientific hunger and loneliness.
-Mudcookies are the conceptual resources which can be shared with people for free.
+We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends 
+on a tight budget. As funds help do better research, many of us may have to compete endlessly for more oportunities.
+As the COVID-19 pandemic changes the world, more opportunities are given to those who can work with remote computing methods.
+However, existing scientific frameworks are insufficient to fund these talented researchers.
+We encourage all to overcome this obstacle by enhancing our efforts through human-computer collaboration.
 
 ## How to join 
 Here are the structures where you can start some tasks.
 You can setup a project at [project] and collect contributors to work with.
 The sources and data are to be stored and shared in [src] and [data], respectively.
-These are simple but useful, and machine readable. 
+These should be simple but useful, and machine readable. 
 All the materials are free to update on your responsibility,
 but please use issue and pull process to work together if possible.
 
