@@ -1,9 +1,19 @@
 ## About us  
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends 
-on a tight budget. As funds help do better research, many of us may have to compete endlessly for more oportunities.
-As the COVID-19 pandemic changes the world, more opportunities are given to those who can work with remote computing methods.
-However, existing scientific frameworks are insufficient to fund these talented researchers.
-We encourage all to overcome this obstacle by enhancing our efforts through human-computer collaboration.
+on a tight budget. All of our 4K members know virtuous circle of fund and research, but it is hard to get involved. 
+There are many reasons for it but many of them are irreversable because it requires extra efforts that cannot be afforded. 
+Hungry people do not have extra energy but can wait for an opportunity or help from others.
+We believe people have willingness to help.
+How do we help each other in science?
+
+## Vision and Missions
+To evolve researchers studying bio=information.
+
+Evolution is a matter of fitness which can be improved by coperation.
+The successful phenotype of the individual is carved by DNA.
+The success of a group is carved in a network.
+
+To cooperate to increase fitness to survive on a harsh sicience landscape.
 
 ## How to join 
 Here are the structures where you can start some tasks.
