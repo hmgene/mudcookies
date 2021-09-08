@@ -1,6 +1,6 @@
 ## About us  
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends 
-on a tight budget. All of our 4K members know virtuous circle of fund and research, but it is hard to get involved. 
+doing research on a tight budget. All of our 4K members know virtuous circle of fund and research, but it is hard to get involved. 
 There are many reasons for it but many of them are irreversable because it requires extra efforts that cannot be afforded. 
 Hungry people do not have extra energy but can wait for an opportunity or help from others.
 We believe people have willingness to help.
