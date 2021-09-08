@@ -13,8 +13,8 @@ Evolution is a matter of fitness which can be improved by coperation.
 As phenotypic success of individuals is carved in DNA
 the group success is memorized in a network.
 
-We build a network of collaborations built on trust to increase member's fitness to survive in harsh scientific environments.
-On top of the network, we build a novel business model by which members earn practical values.
+- We build a network of collaborations built on trust to increase member's fitness to survive in harsh scientific environments.
+- On top of the network, we build a novel business model by which members earn practical values.
 
 ## How to join 
 Here are the structures where you can start some tasks.
