@@ -5,6 +5,7 @@ There are many reasons for it but many of them are irreversable because it requi
 Hungry people do not have extra energy but can wait for an opportunity or help from others.
 We believe people have willingness to help.
 How do we help each other in science?
+Read some related articles [Voices of the new generation](https://www.nature.com/articles/s41580-021-00414-1?utm_source=facebook&utm_medium=social&utm_content=organic&utm_campaign=NGMT_USG_JC01_GL_NRJournals&fbclid=IwAR1qIsrFVB4-7fRfx4E08gmubNUEjr5PIdv-ByWY1mP7ui6QTsVGBNy-Avc )
 
 ## Vision and Missions
 To evolve researchers studying bio=information.
