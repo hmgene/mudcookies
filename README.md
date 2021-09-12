@@ -3,7 +3,7 @@ We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinform
 doing research on a tight budget. All of our 4K members know virtuous circle of fund and research, but it is hard to get involved. 
 There are many reasons for it but many of them are irreversable because it requires extra efforts that cannot be afforded. 
 Hungry people do not have extra energy but can wait for an opportunity or help from others.
-We believe people have willingness to help.
+We believe people have willingness to help for nothing.
 How do we help each other in science?
 Read some related articles [Voices of the new generation](https://www.nature.com/articles/s41580-021-00414-1?utm_source=facebook&utm_medium=social&utm_content=organic&utm_campaign=NGMT_USG_JC01_GL_NRJournals&fbclid=IwAR1qIsrFVB4-7fRfx4E08gmubNUEjr5PIdv-ByWY1mP7ui6QTsVGBNy-Avc )
 
