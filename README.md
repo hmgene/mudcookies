@@ -1,3 +1,6 @@
+## News
+Read articles in https://docs.google.com/document/d/1aQC6zn-eXflSmpts0XGE7CawbUEHwnL6o-OFXO52PTc/mobilebasic?fbclid=IwAR0NDwhFvPwkk1TSVMaEM3bOQPBC3yZJKkmzvLtqQB5Mozi1W7Yr9xouZqk#heading=h.arcrgw3lu7wt - Thanks Eunkwang Roh
+
 ## About us  
 We are [Korean Bioinformatcists](https://www.facebook.com/groups/koreanbioinformatics), and friends 
 doing research on a tight budget. All of our 4K members know virtuous circle of fund and research, but it is hard to get involved. 
