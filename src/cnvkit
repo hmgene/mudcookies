@@ -1,0 +1,3 @@
+ #P_coverage.add_argument('-f', '--fasta', metavar="FILENAME",
+    AP.add_argument('-f', '--fasta', metavar="FILENAME",
+            help="Reference genome, FASTA format (e.g. UCSC hg19.fa)")
