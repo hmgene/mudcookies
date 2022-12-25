@@ -1,0 +1,110 @@
+dn(){
+gsutil -m cp \
+  "gs://gcp-public-data--broad-references/hg38/v0/1000G_omni2.5.hg38.vcf.gz" \
+  "gs://gcp-public-data--broad-references/hg38/v0/1000G_omni2.5.hg38.vcf.gz.tbi" \
+  "gs://gcp-public-data--broad-references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz" \
+  "gs://gcp-public-data--broad-references/hg38/v0/1000G_phase1.snps.high_confidence.hg38.vcf.gz.tbi" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf.gz" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf.gz.tbi" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dbsnp138.vcf.idx" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.dict" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.amb" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.ann" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.bwt" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.fai" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.pac" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.fasta.sa" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.haplotype_database.txt" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Homo_sapiens_assembly38.known_indels.vcf.gz" \
+  "gs://gcp-public-data--broad-references/hg38/v0/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz" \
+  .
+#https://console.cloud.google.com/storage/browser/gatk-best-practices/somatic-hg38;tab=objects?prefix=&forceOnObjectsSortingFiltering=false
+gsutil -m cp \
+  "gs://gatk-best-practices/somatic-hg38/1000g_pon.hg38.vcf.gz" \
+  "gs://gatk-best-practices/somatic-hg38/af-only-gnomad.hg38.vcf.gz" \
+  "gs://gatk-best-practices/somatic-hg38/CNV_and_centromere_blacklist.hg38liftover.list" \
+  "gs://gatk-best-practices/somatic-hg38/small_exac_common_3.hg38.vcf.gz" \
+  .
+}
+
+
+for f in *.vcf.gz;do
+        tabix $f
+done
+
+echo "#!/bin/bash
+module load bwa
+bwa index -a bwtsw Homo_sapiens_assembly38.fasta
+" #| sbatch --mem=64g
+
+
+
+data=(
+217388lb6 221212_A00405_0643_AHN7T7DSX5/217388_LB6_4_S38_L003_R1_001.fastq.gz
+217388rb6 221212_A00405_0643_AHN7T7DSX5/217388_RB6_6_S37_L003_R1_001.fastq.gz
+219826lb1p 221212_A00405_0643_AHN7T7DSX5/219826_LB1plus_2_3_5_S35_L003_R1_001.fastq.gz
+219826mc 221212_A00405_0643_AHN7T7DSX5/219826MC_3_S36_L003_R1_001.fastq.gz
+219830lul 221212_A00405_0643_AHN7T7DSX5/219830_LUL_2_S33_L003_R1_001.fastq.gz
+219830rul 221212_A00405_0643_AHN7T7DSX5/219830_RUL_1_S34_L003_R1_001.fastq.gz
+18914_1 180914_A00405_0052_BHC37MDSXX/1_S26_L002_R1_001.fastq.gz
+18914_A 180914_A00405_0052_BHC37MDSXX/A_S21_L002_R1_001.fastq.gz
+
+)
+
+t=16
+d=data
+#r=/home/hxk728/git/mt/bigdata/data/hg38.fa
+r=/mnt/rstor/SOM_GENE_BEG33/users/hxk728/pj/peinan/mt/bigdata/data/Homo_sapiens_assembly38.fasta
+for (( i=0; i<${#data[@]}; i+=2 ));do
+        s=${data[$i]};
+        f1=${data[$i+1]};
+        f2=${f1/_R1/_R2};
+        echo "#!/bin/bash
+#       mkdir -p fq 
+#       ca fastp -i $f1 -I $f2 -o fq/${s}_R1.fq.gz -O fq/${s}_R2.fq.gz -j fq/$s.json -h  fq/$s.html
+#
+        mkdir -p bw
+#       module load bwa
+#       bwa mem -M -t $t $r fq/${s}_R1.fq.gz fq/${s}_R2.fq.gz > bw/$s.sam
+#
+#       module load gatk
+#       gatk SortSam  --INPUT bw/$s.sam --OUTPUT bw/$s.bam  --REFERENCE_SEQUENCE $r \
+#       --SORT_ORDER coordinate  --VALIDATION_STRINGENCY LENIENT  --java-options -Xmx16g  --MAX_RECORDS_IN_RAM 500000
+#       samtools flagstat bw/$s.bam > bw/$s.bam.flagstat 
+#
+#       gatk AddOrReplaceReadGroups  --INPUT bw/$s.bam --OUTPUT bw/$s.tmp1.bam --REFERENCE_SEQUENCE $r \
+#       --RGLB mg --RGPL ILLUMINA  --RGPU $s --RGSM $s \
+#       --RGCN CC  --VALIDATION_STRINGENCY LENIENT  --java-options -Xmx16g  --MAX_RECORDS_IN_RAM 500000
+#
+#       gatk MarkDuplicates  --INPUT bw/$s.tmp1.bam  --REFERENCE_SEQUENCE $r --OUTPUT bw/$s.tmp2.bam   --METRICS_FILE bw/$s.duplicates 
+#       --ASSUME_SORT_ORDER coordinate  --VALIDATION_STRINGENCY LENIENT  --java-options -Xmx16g  --MAX_RECORDS_IN_RAM 500000
+
+#       gatk BaseRecalibrator  --input bw/$s.tmp2.bam --reference $r --output bw/$s.recal_data.csv \
+#       --lenient true  --java-options -Xmx16g \
+#       --known-sites ${d}/Homo_sapiens_assembly38.dbsnp138.vcf \
+#       --known-sites ${d}/Homo_sapiens_assembly38.known_indels.vcf.gz \
+#       --known-sites ${d}/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz \
+#       --known-sites ${d}/1000G_omni2.5.hg38.vcf.gz \
+#       --known-sites ${d}/1000G_phase1.snps.high_confidence.hg38.vcf.gz
+#
+#       gatk ApplyBQSR --input bw/$s.tmp2.bam --reference $r --bqsr-recal-file bw/$s.recal_data.csv \
+#       --output bw/$s.pp.bam \
+#       --create-output-bam-index false --create-output-variant-md5 true --lenient true --java-options -Xmx16g
+#       samtools index bw/$s.pp.bam
+
+#       gatk Mutect2 --input bw/$s.pp.bam --reference $r --output bw/$s.snp.indel.vcf  \
+#       --panel-of-normals ${d}/1000g_pon.hg38.vcf.gz \
+#       --germline-resource ${d}/af-only-gnomad.hg38.vcf.gz \
+#       --intervals ${d}/hg38_v0_exome_calling_regions.v1.interval_list \
+        --exclude-intervals $d/CNV_and_centromere_blacklist.hg38liftover.list  \
+       --java-options -Xmx16g --lenient true 
+
+
+gatk GetPileupSummaries  --input bw/${s}.pp.bam --output bw/${s}_pileups.table \
+--variant ${d}/small_exac_common_3.hg38.vcf.gz \
+--intervals ${d}/small_exac_common_3.hg38.vcf.gz 
+
+                " | sbatch --mem=64g -c $t
+done
