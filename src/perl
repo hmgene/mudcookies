@@ -1,0 +1,5 @@
+## install module locally 
+```
+perl -MCPAN -e shell 
+cpan>install Package::module
+```
