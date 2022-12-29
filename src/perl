@@ -1,5 +1,10 @@
 ## install module locally 
 ```
 perl -MCPAN -e shell 
-cpan>install Package::module
+
+cpan> o conf makepl_arg 'PREFIX=~/perl5'
+    makepl_arg         [PREFIX=~/perl5]
+Please use 'o conf commit' to make the config permanent!
+cpan> o conf commit
+commit: wrote '/home/hxk728/.cpan/CPAN/MyConfig.pm'
 ```
