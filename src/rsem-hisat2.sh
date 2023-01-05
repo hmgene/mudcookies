@@ -3,6 +3,7 @@
 #wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.annotation.gtf.gz
 #gunzip -dc *.gz;
 
+## depending on the GTF you have to convert convet gene id to gene name
 gtf=gencode.v42.annotation.gtf
 fa=GRCh38.primary_assembly.genome.fa
 ## change this to where hisat2 exists
@@ -12,6 +13,8 @@ ref="rsem_hisat2_hg38"
 ## input fastq files
 fq1=x_R1.fastq.gz
 fq2=x_R2.fastq.gz
+## output name
+o="out"
 
 
 ## index
