@@ -31,6 +31,6 @@ cat<<-eof | sbatch --mem=16g -c 8
 hisat2 -x $ref  -1 $fq1 -2 $fq2 -p 8 \
     --no-spliced-alignment  --end-to-end  --no-softclip  --rdg 10000,10000  --rfg 10000,10000 > $o.sam
 samtools view -hb $o.sam | samtools view -bh -f 0x2 -F 0x100 - | samtools sort -n > $o.bam
-rsem-calculate-expression --paired-end --bam $o.bam rsem $o
+rsem-calculate-expression --paired-end --bam $o.bam $ref $o
 eof
 
