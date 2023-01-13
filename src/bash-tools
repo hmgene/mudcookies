@@ -1,3 +1,7 @@
+#parallel
+https://opensource.com/article/18/5/gnu-parallel
+
+
 ## download cellranger directories with the structure with a dry option -n
 rsync -avzmn --include '*/' --include 'filtered*/*'  --exclude '*' kimj23@10.88.8.18:'~/isilon/bt_confocal/10X\ genomics/MCMSvsTMS_cellranger' .
 ## and then run 
