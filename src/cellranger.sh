@@ -4,7 +4,7 @@
 #file -i o.csv
 #cat $input | perl -npe '$_=~s/\r\n/\n/g;' > $output
 
-
+## read https://kb.10xgenomics.com/hc/en-us/articles/4707448154381-Common-mkref-errors-when-building-custom-reference-from-NCBI-UCSC-or-RefSeq-genomes 
 cellranger mkfastq --id=tutorial_walk_through \
 --run=210203_A01101_0095_AH2N2LDRXY \
 --csv=Jihye_sample_sheet.csv \
