@@ -68,3 +68,33 @@ rsem-calculate-expression --star --star-path ${star%\/STAR}  --star-gzipped-read
 
 "| sbatch -p smp -c $p --mem=64g
 
+
+## add gene name
+rsem-add-genename(){
+usage="$FUNCNAME <wgEncodeGencodeGeneSymbol..txt.gz> <*.results>"
+if [ $# -t 2 ];then echo "$usage";return;fi
+
+gunzip -dc $1 |\
+perl -e 'use strict; my%r=();
+        while(<STDIN>){chomp; my @d=split/\t/,$_;
+                $d[0]=~s/\.\d+//;
+                $r{$d[0]} = $d[1];
+        }
+        open(my$fh,"<","'$2'") or die "$!";
+        while(<$fh>){ chomp;my@d=split/\t/,$_;
+                if($. == 1){
+                        print $_,"\tgene\n";
+                        next;
+                }
+                my %g=();
+                map { $g{$r{$_}}++; } grep {$_=~s/\.\d+//; defined $r{$_} }  split /,/,$d[1];
+                print join("\t",@d,join(",",keys %g)),"\n";
+        }
+        close($fh);
+
+'
+}
+
+rsem-add-genename  wgEncodeGencodeGeneSymbolVM31.txt.gz $o.genes.results
+
+
