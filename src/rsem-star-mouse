@@ -1,0 +1,53 @@
+wget https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFaMasked.tar.gz
+tar-vxzf chromFaMasked.tar.gz
+
+#downloaded from ucsc table download (isoform=>knownIsoform.txt , knownGene => mm10.gtf)
+
+## download RSEM
+wget https://github.com/deweylab/RSEM/archive/v1.3.3.tar.gz
+cd RSEM-1.3.3
+module load gcc
+make
+cd ..
+
+export PATH=$PATH:~/RSEM-1.3.3 ## add full path of this to bash_profile
+
+fa=(
+chr10.fa.masked
+chr11.fa.masked
+chr12.fa.masked
+chr13.fa.masked
+chr14.fa.masked
+chr15.fa.masked
+chr16.fa.masked
+chr17.fa.masked
+chr18.fa.masked
+chr19.fa.masked
+chr1.fa.masked
+chr2.fa.masked
+chr3.fa.masked
+chr4.fa.masked
+chr5.fa.masked
+chr6.fa.masked
+chr7.fa.masked
+chr8.fa.masked
+chr9.fa.masked
+chrM.fa.masked
+chrX.fa.masked
+chrY.fa.masked
+)
+
+chrom=`echo ${fa[@]} | tr " " ","`;
+star=/usr/local/STAR/2.7.0e/bin/STAR
+ref=ref/mm10
+p=8
+echo "#!/bin/bash
+module load base
+module load gcc
+rsem-prepare-reference --gtf mm10.gtf \
+                        --transcript-to-gene-map knownIsoforms.txt \
+                        --star \
+                        --star-path ${star%\/STAR} \
+                        -p $p \
+                        $chrom $ref
+" | sbatch -p smp --mem=128g -c $p
