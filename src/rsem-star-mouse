@@ -51,3 +51,20 @@ rsem-prepare-reference --gtf mm10.gtf \
                         -p $p \
                         $chrom $ref
 " | sbatch -p smp --mem=128g -c $p
+
+
+
+### run RSEM
+o=SRR2221999
+p=8
+fq1=SRR22221999_1.fastq.gz
+fq2=SRR22221999_2.fastq.gz
+star=/usr/local/STAR/2.7.0e/bin/STAR
+
+echo "#!/bin/bash
+module load gcc
+module load STAR
+rsem-calculate-expression --star --star-path ${star%\/STAR}  --star-gzipped-read-file --append-names --paired-end $fq1 $fq2 $ref $o
+
+"| sbatch -p smp -c $p --mem=64g
+
