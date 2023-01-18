@@ -1,4 +1,6 @@
 ## install module locally 
+ref: https://sites.google.com/a/case.edu/hpcc/hpc-cluster/software/software-installation-guide/perl-and-modules?pli=1
+
 ```
 perl -MCPAN -e shell 
 
