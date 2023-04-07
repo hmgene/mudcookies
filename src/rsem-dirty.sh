@@ -1,3 +1,45 @@
+star=/home/oannes/rsem/STAR-2.7.10b/bin/Linux_x86_64
+genome=gencode/GRCh38.primary_assembly.genome.fa
+gtf=gencode/gencode.v36.annotation.gtf
+ref=./rsem_ref/gencode_hg38
+nproc=4
+
+## rsem bug: the ref must be in the genome directory
+#mkdir -p ${ref%/*}
+#cp $genome ${ref%/*}
+#rsem-prepare-reference -p 4 --gtf $gtf  --star --star-path $star $genome $ref
+
+echo "
+TCCC-ST78_NT
+TCCC-ST78_DMSO
+TCCC-ST78_Pax_10uM
+TCCC-ST78_Ina_10uM
+TCCC-ST78_Tas_10uM
+" | grep -v '^$' | while read -r n;do
+        f1=`ls /mnt/x/data/040123_NextSeq/040123_NextSeq/$n*_R1.fastq.gz`
+        f2=${f1/_R1/_R2};
+        if [ -f $f1 -a -f $f2 ];then
+                out=rsem/$n
+        #       mkdir -p ${out%\/*}
+        #       rsem-calculate-expression -p 6 --paired-end --star --star-path $star \
+        #        --estimate-rspd  --star-gzipped-read-file  --append-names \
+        #        $f1 $f2 $ref $out
+        #.gene.TPM.txt
+#NC_000001.11    77561526        77683440        ZZZ3    31.36
+                i=rsem/$n.genes.results
+                o=rsem/$n.gene.TPM.txt
+                echo -e "Chr\tStart\tStop\tGeneID\tTPM"  > $o
+                tail -n+2 $i| cut -f 1,5 | perl -ne 'chomp; my ($id,$tpm)=split/\t/,$_;
+                my @d=split/_/,$id;
+                print join("\t",".",".",".",$d[$#d],$tpm),"\n";
+                ' >> $o
+        fi
+done
+
+ cp rsem/*.gene.TPM.txt /mnt/x/data/040123_NextSeq/
+ 
+
+
 NPROC=8
 STAR_PATH=~/data/star/STAR-2.5.3a/bin/Linux_x86_64
 r=~/data/rsem/grch38/grch38
