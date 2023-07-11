@@ -1,3 +1,9 @@
+## WSL 
+mount network drive
+```
+sudo mount -t drvfs '\\ads.case.edu\rc' /mnt/x
+```
+
 ## realpath
 - on mac install
 ```
