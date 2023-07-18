@@ -1,2 +1,4 @@
 ## installation
 # rpy2: https://stackoverflow.com/questions/70095661/nonetype-object-is-not-callable-error-during-pip-rpy2-installation-on-ubuntu
+apt info nvidia-cuda-toolkit
+
