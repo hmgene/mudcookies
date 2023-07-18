@@ -1,4 +1,5 @@
 ## installation
 # rpy2: https://stackoverflow.com/questions/70095661/nonetype-object-is-not-callable-error-during-pip-rpy2-installation-on-ubuntu
+# install cuda on wsl2-ubuntu : https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-the-nvidia-cuda-platform#4-compile-a-sample-application
 apt info nvidia-cuda-toolkit
 
