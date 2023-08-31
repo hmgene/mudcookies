@@ -14,7 +14,7 @@ pip install biobert-embedding
 
 * download the model manually from 
 https://www.dropbox.com/s/hvsemunmv0htmdk/biobert_v1.1_pubmed_pytorch_model.tar.gz
-( the google drive is not working ).
+( the google drive is not working : https://github.com/Overfitter/biobert_embedding/issues/9 ).
 * run the following:
 ```
 from biobert_embedding.embedding import BiobertEmbedding
