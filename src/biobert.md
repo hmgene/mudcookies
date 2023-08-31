@@ -1,9 +1,9 @@
 
 
-Installation
-Note, python < 3.7.2, numpy not working
-python >= 3.8 torch==1.2.0 not working
-biobert-embedding (downloading from google drive not working)
+## Installation
+Note, python < 3.7.2 - numpy issue
+python >= 3.8 torch issue.
+
 
 ```
 conda create -n py372 python==3.7.2
@@ -13,8 +13,9 @@ pip install torch==1.2.0
 pip install biobert-embedding
 ```
 
-download model manuaaly from 
+download the model manually from 
 https://www.dropbox.com/s/hvsemunmv0htmdk/biobert_v1.1_pubmed_pytorch_model.tar.gz
+( the google drive is not working )
 run the following:
 ```
 from biobert_embedding.embedding import BiobertEmbedding
