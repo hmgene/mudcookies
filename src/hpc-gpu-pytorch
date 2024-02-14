@@ -1,1 +1,8 @@
 https://canvas.case.edu/courses/14809
+```
+module load PyTorch/1.11.0-foss-2021a-CUDA-11.3.1
+python <( echo "
+import torch;torch
+print(torch.cuda.is_available());
+")
+```
