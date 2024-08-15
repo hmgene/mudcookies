@@ -9,6 +9,7 @@ echo "
 
 #https://www.hanselman.com/blog/how-to-ssh-into-wsl2-on-windows-10-from-an-external-machine
 ip=129.22.242.198
+ip=172.19.196.21
 port=22
 echo "
 netsh interface portproxy show v4tov4
