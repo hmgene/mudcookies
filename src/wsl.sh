@@ -9,3 +9,6 @@
 
 129.22.242.198
 ```
+
+#https://www.hanselman.com/blog/how-to-ssh-into-wsl2-on-windows-10-from-an-external-machine
+
